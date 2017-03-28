@@ -40,27 +40,15 @@ module Psychonaut
     end
 
     def make_info_keys_consistent!(info:)
-      change_cross_tolerance!(info)
-      change_dangerous_interactions!(info)
-      change_effects!(info)
+      change_hash_keys!(info: info, current_key: 'cross-tolerance', new_key: 'cross_tolerance')
+      change_hash_keys!(info: info, current_key: 'dangerousinteraction', new_key: 'dangerous_interactions')
+      change_hash_keys!(info: info, current_key: 'effect', new_key: 'effects')
     end
 
-    def change_cross_tolerance!(info)
-      hash = info.select { |h| h['property'].casecmp('cross-tolerance').zero? }.first
+    def change_hash_keys!(info:, current_key:, new_key:)
+      hash = info.select { |h| h['property'].casecmp(current_key).zero? }.first
       return unless hash
-      hash['property'] = 'cross_tolerance'
-    end
-
-    def change_dangerous_interactions!(info)
-      hash = info.select { |h| h['property'].casecmp('dangerousinteraction').zero? }.first
-      return unless hash
-      hash['property'] = 'dangerous_interactions'
-    end
-
-    def change_effects!(info)
-      hash = info.select { |h| h['property'].casecmp('effect').zero? }.first
-      return unless hash
-      hash['property'] = 'effects'
+      hash['property'] = new_key
     end
 
     def clean_extracted_values!(extracted_values)
