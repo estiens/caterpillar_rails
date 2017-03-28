@@ -5,8 +5,8 @@ module Watson
 
   class Requests
     def initialize(context: nil, entities: nil, intents: nil, text: nil)
-      @username = Rails.application.secrets.watson_username
-      @password = Rails.application.secrets.watson_password
+      @username = ENV['WATSON_USERNAME']
+      @password = ENV['WATSON_PASSWORD']
       @version = '2017-02-03'
       @context = context
       @entities = entities
