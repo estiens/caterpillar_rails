@@ -4,12 +4,14 @@ module Psychonaut
   BASE_URL = 'https://psychonautwiki.org/w/api.php?action=browsebysubject&format=json'.freeze
 
   class SubstanceRequester
-    def initialize(subject:)
+    def initialize(subject:, force: true)
       @subject = subject
+      @force = force
     end
 
     def info_lookup
-      response = HTTParty.get(BASE_URL + "&subject=#{@subject}")
+      encoded_subject = @subject.encode('ASCII', invalid: :replace, undef: :replace, replace: '')
+      response = HTTParty.get(BASE_URL + "&subject=#{encoded_subject}")
       body = JSON.parse(response.body)
       substance = body.dig('query', 'subject')&.gsub('#0#', '')
       info = body.dig('query', 'data')
@@ -21,11 +23,13 @@ module Psychonaut
       substance_name = substance_information[:substance_name]
       substance_info = substance_information[:info]
       return unless substance_name.present? && substance_info.present?
+      return 'skipped' if Substance.find_by(name: substance_name) && !@force
       substance = Substance.find_or_create_by(name: substance_name)
       make_info_keys_consistent!(info: substance_info)
       extract_all_values(substance: substance, info: substance_info)
       set_alternate_name(substance: substance, info: substance_info)
-      substance.save
+      return substance.name if substance.save
+      false
     end
 
     private
