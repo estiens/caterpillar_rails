@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  post :query, controller: 'application'
+  namespace :api do
+    namespace :v1 do
+      post 'query' => 'query#query'
+    end
+  end
 end
