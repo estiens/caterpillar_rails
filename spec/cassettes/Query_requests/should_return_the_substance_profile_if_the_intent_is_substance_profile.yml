@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c4a97805-e49c-4db9-82a4-40f06ac7c905/message?version=2017-02-03
+    body:
+      encoding: UTF-8
+      string: '{"input":{"text":"Tell me about LSD"},"alternate_intents":true,"context":null}'
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      Authorization:
+      - Basic MjRlYjY4YzctNDM2ZS00ZjA5LWI2NGItMjU4NjBmODBmODk5OjVPdzdLYzhHMlhuQg==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - Keep-Alive
+      Transfer-Encoding:
+      - chunked
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Etag:
+      - W/"2f7-GywBjYHi5vR+swr7BjZ4zw"
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Vary:
+      - Accept-Encoding
+      X-Xss-Protection:
+      - 1; mode=block
+      Date:
+      - Wed, 29 Mar 2017 10:57:35 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=yezw65%2BYPNRL4Sf3V9Y05b46hIq3VJ00QjStijzK6J3sTfjvBoBT6aFPU3mMu4XIxciHqe1lDJjthMfU71U%2B88WSmdvdh065x%2BzPHeul5ec9AGDApYewA7Rq%2B7N%2BEbpf4Z%2FtDiALGMm4gFUhWCpyub4I7cpWjNwR4vpKiZFkGvhYRB8P7hzMedsFqaK9%2FoRjOjnPtHIdyyhcZJ7YRXRQEREjW1ecRDgSTcL0gZcV0rkXVFbKmzBMqhcphKPPqPvY0fiJeCg90lAJ4xGq8KO2bOMxh29U164ojLGSSVYwC%2B4PIOmcfjXMYttLsNyrGoAhzXromuoCgFXoI3g39RGIq1z1jWHraltYs7chbP6VmhYsUlUYdDGA0PzIQ4jRlsgq4DplJ9pkZEwV7R1R0DrdOZGkyHKHTU0YAYuBFbqJ%2BFQm4N%2FBJQwrB9gQYeFuYPQbl%2B3RYi8o%2Bga2ttEnh53n4bnyPVoCcxhomiHsDFzCM8830adLEfakWnTPR3tOUSg%2Bd1W76KmB1dDYQDK6FJysNM%2FHsveJGSuSKbPl9S8PMWzaZ6bNP5S1obtiPsSWxreS8oOsOHLygje9kzQV4nG67Ks0uZT7N%2Boah4rb67fP6HmsWxCQxSsNk1KwHhOpNj58LJvwPgvWKbu8LmRY4I%2FGpqn0Xi61XRaMCuLR6kjAlC108S55%2B2tKLEIm0js6aOHjwSDw8phKt4fxq%2F3LZydeRarRZvvm%2BeRWjFFS6ipCrwXlwMJZ2DHxvzQ5E%2F99PSaLZN5PXL8w43LWtiRLe%2BiFhW5TM0ibBC1VOwf2MUCbK5%2FjPpQ29Iq2CfX2%2B4Hiri7KtaCd%2FjY1Fom7yFr7EtPL8rR56N8nzB8duvbInGdSwyKRsWwGEXvpbvmGLGsLruf%2F5sSQKGdwkFBm9oHAI0eLuHTzYxpNXkuQ9n0nJIN0qE00ThoxwxxnNoI39sK4A0q6v1u%2BfYlOzGJsizI%2BJ1PZYA%3D%3D;
+        path=/conversation/api; secure; HttpOnly
+      X-Client-Ip:
+      - 37.6.60.224
+      X-Global-Transaction-Id:
+      - '2324793376'
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp01-2324793376
+    body:
+      encoding: UTF-8
+      string: '{"intents":[{"intent":"substance_profile","confidence":0.9641680717468262},{"intent":"get_dose_information","confidence":0.0697711855173111},{"intent":"get_interactions","confidence":0.05794927850365639},{"intent":"overdose","confidence":0.019902126863598824},{"intent":"get_effects","confidence":0.012930267490446568}],"entities":[{"entity":"Substances","location":[14,17],"value":"LSD"}],"input":{"text":"Tell
+        me about LSD"},"output":{"log_messages":[],"text":[],"nodes_visited":["node_1_1490605358060"]},"context":{"conversation_id":"c19c0249-7ede-4881-b904-d04e1a78b4ae","system":{"dialog_stack":[{"dialog_node":"root"}],"dialog_turn_counter":1,"dialog_request_counter":1,"branch_exited":true,"branch_exited_reason":"completed"}},"alternate_intents":true}'
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 10:57:35 GMT
+recorded_with: VCR 3.0.3

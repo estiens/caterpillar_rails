@@ -33,12 +33,25 @@ module Watson
 
     def parse_response_for_methods(response)
       json_body = JSON.parse(response.body)
-      found_intents = json_body['intents'] || [{}]
-      found_entities = json_body['entities'] || [{}]
-      found_substance = found_entities.select { |h| h['entity'] == 'Substances' }.first || {}
-      probable_intent = found_intents.first['intent']
-      substance_type = found_substance['value']
-      { probable_intent: probable_intent, substance: substance_type }
+      probable_intent = parse_body_for_intent(json_body)
+      substance = parse_body_for_substance(json_body)
+      { probable_intent: probable_intent, substance: substance }
+    end
+
+    def parse_body_for_intent(json_body)
+      found_intents = json_body['intents']
+      probable_intent = found_intents.first['intent'] if found_intents.first['confidence'] > 0.15
+      probable_intent || 'unknown'
+    rescue
+      'unknown'
+    end
+
+    def parse_body_for_substance(json_body)
+      found_entities = json_body['entities']
+      found_substance = found_entities.select { |h| h['entity'] == 'Substances' }.first
+      found_substance['value'] || 'unknown'
+    rescue
+      'unknown'
     end
   end
 end

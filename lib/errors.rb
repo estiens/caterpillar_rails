@@ -5,6 +5,10 @@ class ApiError < StandardError
   def initialize(code: nil, status: nil, message: nil)
     @status = status || 422
     @code = code || 'Unprocessable Entity'
-    @message = message || 'Something Went Wrong'
+    @message = message
+  end
+
+  def message
+    @message || 'Something Went Wrong'
   end
 end

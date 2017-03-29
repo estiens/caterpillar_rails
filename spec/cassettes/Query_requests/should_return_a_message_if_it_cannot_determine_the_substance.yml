@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c4a97805-e49c-4db9-82a4-40f06ac7c905/message?version=2017-02-03
+    body:
+      encoding: UTF-8
+      string: '{"input":{"text":"Tell me about the sky"},"alternate_intents":true,"context":null}'
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      Authorization:
+      - Basic MjRlYjY4YzctNDM2ZS00ZjA5LWI2NGItMjU4NjBmODBmODk5OjVPdzdLYzhHMlhuQg==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - Keep-Alive
+      Transfer-Encoding:
+      - chunked
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Etag:
+      - W/"2c7-3Wx9lJlZ04M7t8yBl8ykAQ"
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Vary:
+      - Accept-Encoding
+      X-Xss-Protection:
+      - 1; mode=block
+      Date:
+      - Wed, 29 Mar 2017 10:53:41 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=Jk1yCgkAv%2FD%2BxmjMwcDMSDyq79rTjLqayeB0FZg0xdnBw3RJF3vCyATC2pWswAPceNtQ9bwUS%2BEWtNyG8RdgkRIYBDyt97cgZgNYoaZGAhlT3nfbFpuEImHhv9evrd%2Fe8VwM%2BltcxMWUZNPHQFPcqe5b4UnKa9wLDS2n7uZyUzGvnxaltBHk9OXtxgv0FxsTW0RaKF%2FShuLUoOEJdsktFwtDn7gxpSAeyd6IbPioLLJyL2zuN0bpmp4LTcipSrYB8%2FJKpriZNQuoPzDOk5SY4Sg%2BIVOPgp8sZvUDnRhU8AaZDJdZ3hDdyY1swklptFJ%2FaVSKvNbbAsReeZ2lXcdW7Zl%2Bk1z3YxU4PNUMH1bOFeO3KQCqRboXF14WVoNpXboY9Kej2qao5cI847GVoMuMaIUAXIUbAMXBMxeRcBDJzIJ%2FiWp6U6QYiqIoMEcWVvhNqVmGRlq4ksTVKSukMXFSx2pfMMbOX3kdnTr6HPtY9DtXQkT5agJzU8Gg%2FgRzANwx%2Bu4pWNHUXgLcQNbn79PjgvgK9XiqUjiMgcQJb5X5sV3ym3w5VdGxIjx5%2B2DRBTrq3wlTU4bPKR7%2FI9vk33scD3fueaKEYGMMqSPuBYvT7jM5ItbUY2Bi0Q3ccfWy%2FheKVI2R8s%2FwjUQaLUhp1uFWI7UNG9EMO5bme1uk5YtiHGWbNhItbYsy%2B3fiqkFrm78dZpV6PpuNmjgwaSTqGaw97es%2BNOAuC7RYCymbEaSDtrB8bBlj7jJ8dCCu8z0nooEb7Mst31IYxe7RCtxjy9XgAhcN2yezYS6hAW9vtn9%2FXxs71lwqzVFhLsxt7SwEmjGp8U9CJb6KktYw%2FyxSTOT6wL42QHM9ETWJgKYR3izGr8wgq9N%2FWcTx0LKL5iSS%2BvpgCsklIv879DIgtkSSjNQ%2Be27%2F%2FVea5ktf4ox4o%2FJoh9hNvWxeytycGaKdINbZVpWawMppJISrtamve2JozIjrXw%3D%3D;
+        path=/conversation/api; secure; HttpOnly
+      X-Client-Ip:
+      - 37.6.60.224
+      X-Global-Transaction-Id:
+      - '2420789332'
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp02-2420789332
+    body:
+      encoding: UTF-8
+      string: '{"intents":[{"intent":"substance_profile","confidence":0.22813042672984402},{"intent":"overdose","confidence":0.10517649991367982},{"intent":"get_effects","confidence":0.014335328162753532},{"intent":"get_interactions","confidence":0.014148321140961208},{"intent":"get_dose_information","confidence":0.0030369561439592524}],"entities":[],"input":{"text":"Tell
+        me about the sky"},"output":{"log_messages":[],"text":[],"nodes_visited":["node_1_1490605358060"]},"context":{"conversation_id":"433f455c-6c1f-4adc-939b-6a7c520d0a6e","system":{"dialog_stack":[{"dialog_node":"root"}],"dialog_turn_counter":1,"dialog_request_counter":1,"branch_exited":true,"branch_exited_reason":"completed"}},"alternate_intents":true}'
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 10:53:42 GMT
+recorded_with: VCR 3.0.3
