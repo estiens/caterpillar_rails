@@ -15,13 +15,17 @@ module Api::V1
       fail!(message: 'You must pass a query in the query param') unless params['query']
     end
 
+    def find_substance(name)
+      substance = Drug.find_by(name: name)
+      substance ||= Drug.where('? = ANY (aliases)', name).first
+      substance ||= Substance.find_by(name: name)
+      substance
+    end
+
     def check_for_intent_and_parse_substance(response)
       @intent = response[:probable_intent]
       could_not_determine_intent && return if @intent == 'unknown'
-      @substance = Substance.find_by(name: response[:substance])
-      @substance = Drug.where(':name = ANY(aliases)', response[:substance]).first
-      @substance = Drug.find_by(name: response[:substance
-      true
+      @substance = find_substance(name: response[:substance])
     end
 
     def create_response
