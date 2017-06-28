@@ -10,10 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170327150423) do
+ActiveRecord::Schema.define(version: 20170628062758) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "drugs", force: :cascade do |t|
+    t.string   "name"
+    t.string   "detection"
+    t.string   "test_kits"
+    t.string   "dose_summary"
+    t.string   "onset_summary"
+    t.string   "after_effects"
+    t.string   "duration_summary"
+    t.text     "effects",          default: [],              array: true
+    t.text     "aliases",          default: [],              array: true
+    t.string   "drug_summary"
+    t.text     "categories",       default: [],              array: true
+    t.string   "marquis"
+    t.string   "avoid"
+    t.string   "general_advice"
+    t.json     "full_response"
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
+  end
 
   create_table "substances", force: :cascade do |t|
     t.string   "name"

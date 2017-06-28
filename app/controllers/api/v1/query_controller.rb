@@ -19,6 +19,8 @@ module Api::V1
       @intent = response[:probable_intent]
       could_not_determine_intent && return if @intent == 'unknown'
       @substance = Substance.find_by(name: response[:substance])
+      @substance = Drug.where(':name = ANY(aliases)', response[:substance]).first
+      @substance = Drug.find_by(name: response[:substance
       true
     end
 
