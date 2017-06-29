@@ -1,3 +1,5 @@
+require 'recastai'
+
 module Recast
   class Requests
     def initialize(text:)
@@ -6,7 +8,7 @@ module Recast
     end
 
     def send_text
-      response = @client.request.analyse_text(text)
+      response = @client.request.analyse_text(@text)
       substance = response&.entities&.first&.value
       probable_intent = response&.intents&.first&.slug
       { probable_intent: probable_intent, substance: substance }
