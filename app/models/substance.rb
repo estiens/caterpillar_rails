@@ -10,23 +10,12 @@ class Substance < ApplicationRecord
     dose_header + insufflation_profile + oral_profile + intravenous_profile + dose_footer
   end
 
-  def has_dosage_info
-  end
-
   def interaction_profile
     return no_interaction_information unless substance.has_interaction_info?
   end
 
   private
 
-  def has_dosage_info?
-  end
-
-  def has_interaction_info?
-  end
-
-  # response parts
-  # TODO: filter all these out into some sort of views/presenters
   def substance_header
     "#{name} is a #{chemical_class}.\n"
   end
