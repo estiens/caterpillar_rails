@@ -7,6 +7,7 @@ class Response
 
   # rubocop:disable Metrics/MethodLength
   def message
+    puts intent
     case @intent
     when 'substance_info'
       @substance.substance_profile
