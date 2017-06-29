@@ -13,7 +13,7 @@ class Response
     when 'testing_info'
       @substance.testing_profile
     when 'dosage_info'
-      @substance.dosage_profile
+      @substance.dose_profile
     when 'effect_info'
       @substance.effects_profile
     when 'duration_info'
