@@ -16,10 +16,9 @@ module Api::V1
       fail!(message: 'You must pass a query in the query param') unless params['query']
     end
 
-    def find_substance(name)
+    def find_substance(name:)
       substance = Drug.find_by(name: name)
       substance ||= Drug.where('? = ANY (aliases)', name).first
-      # substance ||= Substance.find_by(name: name)
       substance
     end
 
