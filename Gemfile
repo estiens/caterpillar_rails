@@ -14,6 +14,8 @@ gem 'rails', '~> 5.0.1'
 gem 'bcrypt', '~> 3.1.7'
 gem 'httparty'
 
+gem 'RecastAI'
+
 group :test do
   gem 'shoulda-matchers', '~> 3.1'
 end

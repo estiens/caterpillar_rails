@@ -1,14 +1,12 @@
-namespace :psychonaut do
-  task get_info_for_substances: :environment do
+namespace :substances do
+  task build_substance_models: :environment do
     path = Rails.root.join('lib', 'reference') + 'psychonaut_api_substance_list.yml'
     substance_list = YAML.safe_load(File.read(path))
     substance_list['substances'].each do |substance|
       begin
-        requester = Psychonaut::SubstanceRequester.new(subject: substance, force: false)
+        requester = TripSit::SubstanceRequester.new(subject: substance, force: true)
         name = requester.create_substance_from_info
-        if name == 'skipped'
-          puts "#{substance} skipped"
-        elsif name
+        if name
           puts "#{substance} updated"
         else
           puts "#{substance} not found"

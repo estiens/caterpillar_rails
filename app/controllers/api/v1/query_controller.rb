@@ -5,9 +5,9 @@ module Api::V1
 
     def query
       check_params
-      response = Watson::Requests.new(text: params['query']).post_input
-      return unless check_for_intent_and_substance(response)
-      send_information(intent: @intent, substance: @substance)
+      response = Recast::Requests.new(text: params['query']).send_text
+      check_for_intent_and_parse_substance(response)
+      create_response
     end
 
     private
@@ -16,39 +16,49 @@ module Api::V1
       fail!(message: 'You must pass a query in the query param') unless params['query']
     end
 
-    def check_for_intent_and_substance(response)
-      @intent = response[:probable_intent]
-      could_not_determine_intent && return if @intent == 'unknown'
-      @substance = Substance.find_by(name: response[:substance])
-      cannot_find_substance && return unless @substance
-      true
+    def find_substance(name)
+      substance = Drug.find_by(name: name)
+      substance ||= Drug.where('? = ANY (aliases)', name).first
+      # substance ||= Substance.find_by(name: name)
+      substance
     end
 
-    def send_information(intent:, substance:)
-      message = case intent
-                when 'substance_profile'
-                  substance.substance_profile
-                else
+    def check_for_intent_and_parse_substance(response)
+      @intent = response[:probable_intent]
+      @substance = find_substance(name: response[:substance])
+    end
+
+    def create_response
+      message = if !@intent || @intent == 'unknown'
                   could_not_determine_intent
+                elsif !@substance
+                  could_not_determine_substance
+                else
+                  Response.new(intent: @intent, substance: @substance).message
                 end
       render json: { message: message }
     end
 
+    def could_not_determine_substance
+      message = "Sorry, but I couldn't determine what substance you were inquiring about, "
+      message += "but I think you wanted to know about #{@intent}"
+      message
+    end
+
     def could_not_determine_intent
-      message = "Sorry, but I couldn't tell what you wanted. Right now, you can try 'Tell me about [substance]'"
-      render json: { message: message }
+      if @substance
+        message = "I could tell you want info about #{substance_name}. "
+        message += "I couldn't tell what kind of info. Try info, dosage, effects, or testing"
+      else
+        message = complete_unknown_message
+      end
+      message
     end
 
-    def cannot_find_substance
-      render json: { message: "I'm sorry, but I don't have any information about that" }
-    end
-
-    def fail!(message: nil, status: nil, code: nil)
-      raise ApiError.new(message: message, status: status, code: code)
-    end
-
-    def handle_api_error(exception)
-      render json: { message: exception.message, code: exception.code }, status: exception.status
+    def complete_unknown_message
+      message = "Sorry, but I couldn't tell what you wanted."
+      message += "Right now, you can try 'Tell me about [substance]'"
+      message
     end
   end
 end

@@ -5,6 +5,17 @@ class Substance < ApplicationRecord
       effects_description + addiction_profile + toxicity_profile
   end
 
+  def dosage_profile
+    return no_dosage_information + dose_footer unless substance.has_dosage_info?
+    dose_header + insufflation_profile + oral_profile + intravenous_profile + dose_footer
+  end
+
+  def interaction_profile
+    return no_interaction_information unless substance.has_interaction_info?
+  end
+
+  private
+
   def substance_header
     "#{name} is a #{chemical_class}.\n"
   end

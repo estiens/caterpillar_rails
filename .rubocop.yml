@@ -15,16 +15,19 @@ Documentation:
 DotPosition:
   EnforcedStyle: trailing
 
-Style/EmptyLinesAroundBlockBody:
+Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
-Style/EmptyLinesAroundModuleBody:
+Layout/EmptyLinesAroundModuleBody:
   Enabled: false
 
-Style/EmptyLinesAroundClassBody:
+Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
-Style/EmptyLinesAroundMethodBody:
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
+
+Performance/StringReplacement:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
