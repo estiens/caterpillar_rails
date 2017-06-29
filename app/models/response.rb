@@ -6,14 +6,7 @@ class Response
   end
 
   def message
-    if @substance
-      @substance.substance_profile
-    else
-      refer_out_no_substance
-    end
+    @substance.substance_profile
   end
 
-  def refer_out_no_substance
-    "I'm sorry, but I don't have any information about that'"
-  end
 end

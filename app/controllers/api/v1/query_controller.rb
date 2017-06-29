@@ -6,7 +6,8 @@ module Api::V1
     def query
       check_params
       response = Watson::Requests.new(text: params['query']).post_input
-      create_response if check_for_intent_and_parse_substance(response)
+      check_for_intent_and_parse_substance(response)
+      create_response
     end
 
     private
@@ -24,12 +25,18 @@ module Api::V1
 
     def check_for_intent_and_parse_substance(response)
       @intent = response[:probable_intent]
-      could_not_determine_intent && return if @intent == 'unknown'
       @substance = find_substance(name: response[:substance])
     end
 
     def create_response
+      could_not_determine_intent unless @intent && @intent != 'unknown'
+      could_not_determine_substance unless @substance
       message = Response.new(intent: @intent, substance: @substance).message
+      render json: { message: message }
+    end
+
+    def could_not_determine_substance
+      message = "Sorry, but I couldn't determine what substance you were inquiring about"
       render json: { message: message }
     end
 
