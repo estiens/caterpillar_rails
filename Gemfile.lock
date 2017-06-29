@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    RecastAI (3.1.1)
+      httmultiparty (~> 0.3)
+      httparty (~> 0.13)
     actioncable (5.0.2)
       actionpack (= 5.0.2)
       nio4r (>= 1.2, < 3.0)
@@ -63,6 +66,10 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     hashdiff (0.3.0)
+    httmultiparty (0.3.16)
+      httparty (>= 0.7.3)
+      mimemagic
+      multipart-post
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
     i18n (0.8.1)
@@ -77,9 +84,11 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
+    mimemagic (0.3.2)
     mini_portile2 (2.1.0)
     minitest (5.10.1)
     multi_xml (0.6.0)
+    multipart-post (2.0.0)
     nio4r (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
@@ -180,6 +189,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RecastAI
   bcrypt (~> 3.1.7)
   dotenv-rails
   factory_girl_rails

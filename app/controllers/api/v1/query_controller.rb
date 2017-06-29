@@ -5,7 +5,7 @@ module Api::V1
 
     def query
       check_params
-      response = Watson::Requests.new(text: params['query']).post_input
+      response = Recast::Requests.new(text: params['query']).send_text
       check_for_intent_and_parse_substance(response)
       create_response
     end
@@ -19,7 +19,7 @@ module Api::V1
     def find_substance(name)
       substance = Drug.find_by(name: name)
       substance ||= Drug.where('? = ANY (aliases)', name).first
-      substance ||= Substance.find_by(name: name)
+      # substance ||= Substance.find_by(name: name)
       substance
     end
 
@@ -29,20 +29,36 @@ module Api::V1
     end
 
     def create_response
-      could_not_determine_intent unless @intent && @intent != 'unknown'
-      could_not_determine_substance unless @substance
-      message = Response.new(intent: @intent, substance: @substance).message
+      message = if !@intent || @intent == 'unknown'
+                  could_not_determine_intent
+                elsif !@substance
+                  could_not_determine_substance
+                else
+                  Response.new(intent: @intent, substance: @substance).message
+                end
       render json: { message: message }
     end
 
     def could_not_determine_substance
-      message = "Sorry, but I couldn't determine what substance you were inquiring about"
-      render json: { message: message }
+      message = "Sorry, but I couldn't determine what substance you were inquiring about, "
+      message += "but I think you wanted to know about #{@intent}"
+      message
     end
 
     def could_not_determine_intent
-      message = "Sorry, but I couldn't tell what you wanted. Right now, you can try 'Tell me about [substance]'"
-      render json: { message: message }
+      if @substance
+        message = "I could tell you want info about #{substance_name}. "
+        message += "I couldn't tell what kind of info. Try info, dosage, effects, or testing"
+      else
+        message = complete_unknown_message
+      end
+      message
+    end
+
+    def complete_unknown_message
+      message = "Sorry, but I couldn't tell what you wanted."
+      message += "Right now, you can try 'Tell me about [substance]'"
+      message
     end
   end
 end
