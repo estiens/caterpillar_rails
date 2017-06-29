@@ -27,6 +27,9 @@ Layout/EmptyLinesAroundClassBody:
 Layout/EmptyLinesAroundMethodBody:
   Enabled: false
 
+Performance/StringReplacement:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
 
