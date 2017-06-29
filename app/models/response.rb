@@ -7,19 +7,19 @@ class Response
 
   # rubocop:disable Metrics/MethodLength
   def message
-    puts intent
     case @intent
     when 'substance_info'
       @substance.substance_profile
     when 'testing_info'
       @substance.testing_profile
-    when 'dosing_info'
+    when 'dosage_info'
       @substance.dosage_profile
     when 'effect_info'
       @substance.effects_profile
     when 'duration_info'
       @substance.duration_profile
     else
+      logger.info "Intent should have been caught: #{intent}"
       "Sorry, I didn't know what you meant"
     end
   end
