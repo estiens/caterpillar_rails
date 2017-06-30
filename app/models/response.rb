@@ -29,7 +29,7 @@ class Response
     when 'duration_info'
       @substance.duration_profile
     else
-      logger.info "Intent should have been caught: #{intent}"
+      Rails.logger.info "Intent should have been caught: #{intent}"
       "Sorry, I didn't know what you meant"
     end
   end

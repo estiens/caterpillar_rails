@@ -13,9 +13,9 @@ module Recast
     end
 
     def parse_text
-      @response = @client.analyse_text(@text)
-      parse_substance_and_intent
-      { probable_intent: @intent, substance: @substance }
+      @response = @client.converse_text(@text)
+      parse_reply
+      { replies: @replies, probable_intent: @intent, substance: @substance }
     end
 
     def reply_to_conversation
@@ -23,14 +23,14 @@ module Recast
       sender_id = @conversation['participant']
       chat_id = @conversation['conversation']
       @response = @client.converse_text(incoming_text, conversation_token: sender_id)
-      parse_replies
-      parse_substance_and_intent
+      parse_reply
       { replies: @replies, probable_intent: @intent, substance: @substance, chat_id: chat_id }
     end
 
     private
 
-    def parse_substance_and_intent
+    def parse_reply
+      parse_replies
       parse_substance
       parse_intent
     end
