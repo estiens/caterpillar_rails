@@ -24,7 +24,7 @@ class Response
       @substance.testing_profile
     when 'dosage_info'
       @substance.dose_profile
-    when 'effect_info'
+    when 'effects_info'
       @substance.effects_profile
     when 'duration_info'
       @substance.duration_profile
