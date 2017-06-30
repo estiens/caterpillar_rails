@@ -1,7 +1,10 @@
 module TripSit
   include HTTParty
 
-  BASE_URL = 'http://tripbot.tripsit.me/api/tripsit/getDrug'.freeze
+  BASE_URL = 'http://tripbot.tripsit.me/api/tripsit'.freeze
+  DRUG_LIST_URL = BASE_URL + '/getAllDrugNames'
+  DRUG_INFO_URL = BASE_URL + '/getDrug'
+  DRUG_INTERACTION_URL = BASE_URL + '/getInteraction'
 
   class SubstanceRequester
     def initialize(subject:, force: true)
@@ -12,9 +15,15 @@ module TripSit
       @new_substance = nil
     end
 
+    def self.get_drug_list
+      response = HTTParty.get(DRUG_LIST_URL)
+      body = JSON.parse(response.body)
+      body['data'].first
+    end
+
     def info_lookup
       encoded_subject = @subject.encode('ASCII', invalid: :replace, undef: :replace, replace: '')
-      response = HTTParty.get(BASE_URL + "?name=#{encoded_subject}")
+      response = HTTParty.get(DRUG_INFO_URL + "?name=#{encoded_subject}")
       body = JSON.parse(response.body)
       @name = body['data'].first['name']
       @info = body['data'].first['properties']
@@ -23,11 +32,12 @@ module TripSit
     end
 
     def create_substance_from_info
-      if info_lookup
-        @new_substance = Drug.find_or_create_by(name: @name)
-        write_summaries
-        write_other_values
-      end
+      return false unless info_lookup
+      @new_substance = Drug.find_by(name: @name)
+      return false unless @force || @new_substance.nil?
+      @new_substance = Drug.find_or_create_by(name: @name)
+      write_summaries
+      write_other_values
       return @new_substance.name if @new_substance.save
       false
     end
