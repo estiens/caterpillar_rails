@@ -5,6 +5,7 @@ AllCops:
     - db/migrate/*
     - bin/*
     - 'vendor/**/*'
+    - 'lib/helpers/*.rb'
 
 Rails:
   Enabled: true
