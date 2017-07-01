@@ -5,7 +5,8 @@ module Recast
     def initialize(conversation: nil, text: nil)
       @client = RecastAI::Request.new(ENV['RECAST_TOKEN'])
       @response = nil
-      @substance = nil
+      @substance_a = nil
+      @substance_b = nil
       @intent = nil
       @replies = nil
       @conversation = conversation
@@ -15,7 +16,7 @@ module Recast
     def parse_text
       @response = @client.converse_text(@text)
       parse_reply
-      { replies: @replies, probable_intent: @intent, substance: @substance }
+      { replies: @replies, probable_intent: @intent, substance: @substance_a, interaction_substance: @substance_b }
     end
 
     def reply_to_conversation
@@ -24,14 +25,15 @@ module Recast
       chat_id = @conversation['conversation']
       @response = @client.converse_text(incoming_text, conversation_token: sender_id)
       parse_reply
-      { replies: @replies, probable_intent: @intent, substance: @substance, chat_id: chat_id }
+      { replies: @replies, probable_intent: @intent, substance: @substance_a,
+        interaction_substance: @substance_b, chat_id: chat_id }
     end
 
     private
 
     def parse_reply
       parse_replies
-      parse_substance
+      parse_substances
       parse_intent
     end
 
@@ -41,13 +43,14 @@ module Recast
       @replies = @response.replies.map { |r| { type: 'text', content: r } }
     end
 
-    def parse_substance
-      possible_substance = @response&.entities&.select { |e| e.name == 'substance' }.first
-      @substance = possible_substance.value if possible_substance.respond_to?(:value)
+    def parse_substances
+      possible_substances = @response&.entities&.select { |e| e.name == 'substance' }
+      @substance_a = possible_substances.first.value if possible_substances.first.respond_to?(:value)
+      @substance_b = possible_substances[1]&.value
     end
 
     def parse_intent
-      @intent = @response.intents.select { |i| i.confidence > 0.90 }&.first&.slug
+      @intent = @response.intents.select { |i| i.confidence > 0.50 }&.first&.slug
     end
   end
 end

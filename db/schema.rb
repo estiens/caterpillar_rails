@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170628062758) do
+ActiveRecord::Schema.define(version: 20170701070322) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,6 +33,20 @@ ActiveRecord::Schema.define(version: 20170628062758) do
     t.json     "full_response"
     t.datetime "created_at",                    null: false
     t.datetime "updated_at",                    null: false
+    t.index ["aliases"], name: "index_drugs_on_aliases", using: :gin
+    t.index ["name"], name: "index_drugs_on_name", using: :btree
+  end
+
+  create_table "interactions", force: :cascade do |t|
+    t.integer  "substance_a_id"
+    t.integer  "substance_b_id"
+    t.string   "status"
+    t.text     "notes"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.index ["substance_a_id", "substance_b_id"], name: "index_interactions_on_substance_a_id_and_substance_b_id", unique: true, using: :btree
+    t.index ["substance_a_id"], name: "index_interactions_on_substance_a_id", using: :btree
+    t.index ["substance_b_id"], name: "index_interactions_on_substance_b_id", using: :btree
   end
 
   create_table "substances", force: :cascade do |t|

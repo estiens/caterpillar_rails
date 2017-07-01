@@ -1,23 +1,29 @@
 class Response
 
-  def initialize(intent:, substance_name:, replies:)
+  def initialize(intent:, substance:, replies:, interaction_substance: nil)
     @intent = intent
-    @substance_name = substance_name
+    @substance_name = substance
+    @ix_substance_name = interaction_substance
     @substance = nil
+    @interaction_substance = nil
     @replies = replies
   end
 
   def create_reply
     return @replies if @replies.present?
-    find_substance
+    find_substances
     reply = create_reply_from_intent_and_substance
     [{ type: 'text', content: reply }]
   end
 
   private
 
-  def message_for_intent_and_substance # rubocop:disable Metrics/MethodLength
+  # rubocop:disable Metrics/MethodLength
+  # rubocop:disable Metrics/CyclomaticComplexity
+  def message_for_intent_and_substance
     case @intent
+    when 'interactions_info'
+      report_interactions
     when 'substance_info'
       @substance.substance_profile
     when 'testing_info'
@@ -33,10 +39,31 @@ class Response
       "Sorry, I didn't know what you meant"
     end
   end
+  # rubocop:enable
 
-  def find_substance
-    @substance = Drug.find_by(name: @substance_name)
-    @substance ||= Drug.find_by('? = ANY (aliases)', @substance_name)
+  # think about starting to move these out of Response model
+  def report_interactions
+    if @substance && !@interaction_substance
+      return "Sorry, I know you want to know about mixing something with #{@substance.name}, but I'm not sure what"
+    end
+    interaction = Interaction.find_any_interaction(@substance, @interaction_substance)
+    interaction = fetch_interactions_for(@substance.name, @interaction_substance.name) unless interaction
+    return interaction.message if interaction
+    "Sorry I couldn't find interaction info"
+  end
+
+  def fetch_interactions_for(drug1, drug2)
+    interactions = TripSit::SubstanceRequester.interaction_lookup(drug1: drug1, drug2: drug2)
+    status = interactions[:status]
+    note = interactions[:note]
+    return nil unless status
+    Interaction.create(substance_a: @substance, substance_b: @interaction_substance,
+                       status: status, notes: note)
+  end
+
+  def find_substances
+    @substance = Drug.find_with_aliases(@substance_name)
+    @interaction_substance = Drug.find_with_aliases(@ix_substance_name)
   end
 
   def create_reply_from_intent_and_substance
