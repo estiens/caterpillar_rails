@@ -15,10 +15,21 @@ module TripSit
       @new_substance = nil
     end
 
-    def self.get_drug_list
+    def self.tripsit_drug_list
       response = HTTParty.get(DRUG_LIST_URL)
       body = JSON.parse(response.body)
-      body['data'].first
+      body.dig('data')&.first
+    end
+
+    def self.interaction_lookup(drug1:, drug2:)
+      response = HTTParty.get(DRUG_INTERACTION_URL + "?drugA=#{drug1}&drugB=#{drug2}")
+      body = JSON.parse(response.body)
+      status = body['data'].first['status']
+      note = body['data'].first['note']
+      { status: status, note: note }
+    rescue
+      { status: nil, note: nil }
+
     end
 
     def info_lookup

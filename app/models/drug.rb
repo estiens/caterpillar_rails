@@ -1,5 +1,11 @@
 class Drug < ApplicationRecord
 
+  def self.find_with_aliases(name)
+    drug = find_by(name: name)
+    return drug if drug
+    find_by('? = ANY (aliases)', name)
+  end
+
   def substance_profile
     profile = substance_name
     profile += " (also known as #{alias_string})" if aliases.present?

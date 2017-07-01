@@ -19,7 +19,8 @@ class BotController < ApplicationController
   private
 
   def create_message_from_info(info:)
-    response = Response.new(intent: info[:probable_intent], substance_name: info[:substance], replies: info[:replies])
+    response = Response.new(intent: info[:probable_intent], substance: info[:substance],
+                            replies: info[:replies], interaction_substance: info[:interaction_substance])
     response.create_reply
   end
 

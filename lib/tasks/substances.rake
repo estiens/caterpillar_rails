@@ -1,6 +1,6 @@
 namespace :substances do
   task build_substance_models: :environment do
-    substance_list = TripSit::SubstanceRequester.get_drug_list
+    substance_list = TripSit::SubstanceRequester.tripsit_drug_list
     if substance_list.empty?
       path = Rails.root.join('lib', 'reference') + 'psychonaut_api_substance_list.yml'
       substance_list = YAML.safe_load(File.read(path))['substances']

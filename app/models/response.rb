@@ -1,23 +1,29 @@
 class Response
 
-  def initialize(intent:, substance_name:, replies:)
+  def initialize(intent:, substance:, replies:, interaction_substance: nil)
     @intent = intent
-    @substance_name = substance_name
+    @substance_name = substance
+    @ix_substance_name = interaction_substance
     @substance = nil
+    @interaction_substance = nil
     @replies = replies
   end
 
   def create_reply
     return @replies if @replies.present?
-    find_substance
+    find_substances
     reply = create_reply_from_intent_and_substance
     [{ type: 'text', content: reply }]
   end
 
   private
 
-  def message_for_intent_and_substance # rubocop:disable Metrics/MethodLength
+  # rubocop:disable Metrics/MethodLength
+  # rubocop:disable Metrics/CyclomaticComplexity
+  def message_for_intent_and_substance
     case @intent
+    when 'interactions_info'
+      report_interactions
     when 'substance_info'
       @substance.substance_profile
     when 'testing_info'
@@ -33,10 +39,27 @@ class Response
       "Sorry, I didn't know what you meant"
     end
   end
+  # rubocop:enable
 
-  def find_substance
-    @substance = Drug.find_by(name: @substance_name)
-    @substance ||= Drug.find_by('? = ANY (aliases)', @substance_name)
+  def report_interactions
+    drug1 = @substance&.name
+    drug2 = @interaction_substance&.name
+    if drug1 && !drug2
+      return "Sorry, I know you want to know about mixing something with #{drug1}, but I'm not sure what"
+    end
+    interactions = TripSit::SubstanceRequester.interaction_lookup(drug1: drug1, drug2: drug2)
+    if interactions[:status]
+      message = "Probably #{interactions[:status]}"
+      message += "- #{interactions[:note]}" if interactions[:note]
+      message
+    else
+      "Sorry, I couldn't find interaction info."
+    end
+  end
+
+  def find_substances
+    @substance = Drug.find_with_aliases(@substance_name)
+    @interaction_substance = Drug.find_with_aliases(@ix_substance_name)
   end
 
   def create_reply_from_intent_and_substance
