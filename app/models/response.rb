@@ -41,20 +41,24 @@ class Response
   end
   # rubocop:enable
 
+  # think about starting to move these out of Response model
   def report_interactions
-    drug1 = @substance&.name
-    drug2 = @interaction_substance&.name
-    if drug1 && !drug2
-      return "Sorry, I know you want to know about mixing something with #{drug1}, but I'm not sure what"
+    if @substance && !@interaction_substance
+      return "Sorry, I know you want to know about mixing something with #{@substance.name}, but I'm not sure what"
     end
+    interaction = Interaction.find_any_interaction(@substance, @interaction_substance)
+    interaction = fetch_interactions_for(@substance.name, @interaction_substance.name) unless interaction
+    return interaction.message if interaction
+    "Sorry I couldn't find interaction info"
+  end
+
+  def fetch_interactions_for(drug1, drug2)
     interactions = TripSit::SubstanceRequester.interaction_lookup(drug1: drug1, drug2: drug2)
-    if interactions[:status]
-      message = "Probably #{interactions[:status]}"
-      message += "- #{interactions[:note]}" if interactions[:note]
-      message
-    else
-      "Sorry, I couldn't find interaction info."
-    end
+    status = interactions[:status]
+    note = interactions[:note]
+    return nil unless status
+    Interaction.create(substance_a: @substance, substance_b: @interaction_substance,
+                       status: status, notes: note)
   end
 
   def find_substances
