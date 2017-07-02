@@ -1,14 +1,6 @@
 $(document).ready(function(){
   var $loading = $('#loading').hide();
-
-  $(document)
-    .ajaxStart(function () {
-      $loading.show();
-    })
-    .ajaxStop(function () {
-      $loading.hide();
-    });
-
+  
   $('#drug-info-button').click(function(){
     $('#caterpillar-answer').hide();
     var data = $("#query").val();
