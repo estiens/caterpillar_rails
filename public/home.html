@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Ask The Caterpillar</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.css" rel="stylesheet">
+    <!-- Temporary navbar container fix -->
+    <style>
+      .navbar-toggler {
+      z-index: 1;
+      }
+      @media (max-width: 576px) {
+      nav > .container {
+      width: 100%;
+      }
+      }
+    </style>
+  </head>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+      Menu <i class="fa fa-bars"></i>
+      </button>
+      <div class="container">
+        <a class="navbar-brand" href="#page-top"></a>
+        <div class="collapse navbar-collapse" id="navbarExample">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tryit">Try</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#chat">Chat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#code">Code</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#philosophy">Philosophy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#privacy">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#credits">Credits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/estiens/caterpillar_rails"><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="masthead">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+            <div class="header-content">
+              <div class="header-content-inner">
+                <h1>Ask The Caterpillar is a harm reduction chatbot that allows people easy access to information about substances so that they can make informed choices.</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="device-container">
+              <img src="img/caterpillar.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="download bg-primary" id="tryit">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="section-heading text-center">Try it out!</h2>
+          </div>
+          <div class="col-sm-7">
+            <div class="input-group" style="margin-top:30px;">
+              <input type="text" id="query" class="form-control" placeholder="Ask your question...">
+              <span class="input-group-btn">
+              <button class="btn btn-default" id='drug-info-button' type="button">Go!</button>
+              </span>
+            </div>
+            <div class="card card-block bg-faded" style= "margin-top:10px;">
+              <p id='loading'>Asking the caterpillar...</p>
+              <p id='caterpillar-answer'>The caterpillar knows...
+              <p>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <p>You can try things like...</p>
+            <ul style="list-style: none">
+              <li>Tell me about marijuana</li>
+              <li>What are the effects of speed?</li>
+              <li>How much DMT should I take?</li>
+              <li>Can I mix MDMA and alcohol?</li>
+              <li>How long does PCP last?</li>
+              <li>What color is the marquis test for LSD?</li>
+              <li>How long does 4F-MPH last?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="chat" id="chat">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Chat With The Caterpillar</h2>
+        </div>
+        <div class="row" style="margin-top: 50px">
+          <div class="col-lg-4 text-center">
+            <h3>Slack</h3>
+            <p>Our Slack app lets you put a bot on your team that responds to direct messages.</p>
+            <img src="../img/slackbw.png" width=150px>
+            <p><a href="https://slack.com/oauth/authorize?&client_id=146385117830.205475850721&scope=bot,chat:write:bot"><button class="btn btn-default hover-button" style="margin-top:50px">Add To Slack</button></a></p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <h3>Facebook</h3>
+            <p>Ask questions to the Caterpillar anytime on Facebook Messenger.</p>
+            <img src="../img/messengerbw.png" width=150px>
+            <p><button class="btn btn-default" style="margin-top:50px">Coming Soon</button></p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <h3>SMS</h3>
+            <p>Text the Caterpillar at 435-241-3748(DRUG)</p>
+            <img src="../img/smsbw.png" width=150px>
+            <p><button class="btn btn-default" style="margin-top:50px">SMS is ready!</button></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="code" id="code">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="text-center">Code</h2>
+            <p>The Caterpillar Bot is built with Ruby/Rails and uses Recast.AI for natural language processing.
+              It's MIT licensed and open-source which means anyone can submit features to make it even more useful.
+              <a href="https://github.com/estiens/caterpillar_rails">Check out the code</a> and help make it better!
+            </p>
+          </div>
+        </div>
+        <br/>
+        <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center">API</h2>
+          <p>The Caterpillar has an extremely simple endpoint that you can use to build your own chat applications.</p>
+          <code>
+          curl --request POST --url https://www.askthecaterpillar.com/query --form query="What is MXE"
+          </br>{"data":{"messages":[{"type":"text","content":"Mxe (also known as methoxetamine and 3-meo-2'oxo-pce): A popular dissociative drug which is an analogue of ketamine, though less sedating and more potent by weight, with a subjectively more 'complicated' set of effects. Warning note! Avoid alcohol, benzos, opiates, other depressants, and any drug with an effect on serotonin (for example but not limited to MDMA, amphetamine, other stimulants)"}]}}
+          </code><br/><br/>
+          <p>This endpoint currently has no state information. Every query is treated as its own question.
+            The Caterpillar chatbots will soon support some contextual information to be able to ask clarifying questions and respond to the answers.
+            Currently all messages that will come back will be of type text, though the API may eventually support images or other rich media.
+          </p>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section class="philosophy" id="philosophy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Philosophy</h2>
+            <p>Harm Reduction is a philosophy that accepts that people will choose to use psychoactive substances and seeks to minimize any harms that may occur from those choices.
+              Accurate information about the effects of substances, effects of different doses, and interactions with other substances is an essential part of making informed choices
+              about substance use. Many people find themselves using substances in situations in which researching things on the internet may be the last thing on their minds.
+              The hope of Ask The Caterpillar is that providing people with multiple ways of easily accessing substance information by texting a quick question will increase the likelihood
+              of making an informed choice.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="privacy" id="privacy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Privacy?</h2>
+            <p>Feeling paranoid? I don't have a long privacy policy, but what I can tell you is that I won't store, sell, or give away
+              any information that is generated from your use of this app. Insurers are not going to be cross-tracking IP requests about
+              substance questions if I have anything to say about it. I do store the actual queries coming in to better train the models
+              to recognize what a user is asking about. Heroku only keeps 1500 log lines by default, and I'm not storing longer logs anywhere.
+              If you have any further suggestions on how to anonymize use of this API/chatbot, I'm all for it. Note that I can't control what
+              Facebook, Slack, or any other service stores if you use the chatbot on their platform. That being said, asking questions about
+              substances isn't illegal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="credits" id="credits">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 text-center">
+            <h2>Credits</h2>
+            <div class="text-left">
+            <p>First off, none of this would have been possible without the tireless work that <a href='https://tripsit.me/'>TripSit</a> and <a href='https://psychonautwiki.org/wiki/Main_Page'>Psychonaut Wiki</a> have
+            done in compiling a tremendous amount of information, ensuring its accuracy, and making it available through their APIs.
+            Most of the information that the Caterpillar knows is taken from these sources (open to including more).</p>
+            <p>As of right now, all of the code was written by me, <a href='http://lostinthetranslation.net/'>Eric Stiens</a> as a labor of love.
+              I've been involved informally in harm reduction efforts for most of my adult life.</p>
+            <p>It's built on the great freamwork the <a href='https://recast.ai'>Recast.AI</a> provides. I encourage you to check them out.</p>
+            <p>If you would like to contribute, please don't hesitate to <a href='mailto:hello@askthecaterpillar.com'>get in touch!</a></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <img src='../img/whiterabbit.jpg' width=300px>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact bg-primary" id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+          <a href='mailto:hello@askthecaterpillar.com'><i class="fa fa-envelope-square contact-icon"></i></a>
+          <a href='https://www.facebook.com/Ask-The-Caterpillar-329711684117547/'><i class="fa fa-facebook contact-icon"></i></a>
+          <a href="https://github.com/estiens/caterpillar_rails"><i class="fa fa-github contact-icon"></i></a>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Thanks for the theme <a href="https://startbootstrap.com/">Start Bootstrap</a>.
+      </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+    <script src="js/ask-the-caterpillar.js"></script>
+  </body>
+</html>
