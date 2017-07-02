@@ -18,7 +18,7 @@ module TripSit
     def self.tripsit_drug_list
       response = HTTParty.get(DRUG_LIST_URL)
       body = JSON.parse(response.body)
-      body.dig('data')&.first
+      body['data']&.first
     end
 
     def self.interaction_lookup(drug1:, drug2:)
@@ -29,7 +29,6 @@ module TripSit
       { status: status, note: note }
     rescue
       { status: nil, note: nil }
-
     end
 
     def info_lookup
@@ -45,11 +44,11 @@ module TripSit
     def create_substance_from_info
       return false unless info_lookup
       @new_substance = Drug.find_by(name: @name)
-      return false unless @force || @new_substance.nil?
+      return 'skipped' unless @force || @new_substance.nil?
       @new_substance = Drug.find_or_create_by(name: @name)
       write_summaries
       write_other_values
-      return @new_substance.name if @new_substance.save
+      return @new_substance if @new_substance.save
       false
     end
 

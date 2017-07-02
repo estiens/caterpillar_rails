@@ -13,6 +13,9 @@ Rails:
 Documentation:
   Enabled: false
 
+Lint/AssignmentInCondition:
+  Enabled: false
+  
 DotPosition:
   EnforcedStyle: trailing
 
