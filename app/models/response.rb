@@ -116,7 +116,9 @@ class Response
   def could_not_determine_intent
     if @substance
       message = "I could tell you want info about #{@substance.name}. "
-      message += "I couldn't tell what kind of info. Try info, dosage, effects, or testing"
+      message += "I couldn't tell what kind of info. "
+      message += 'You can try info about [substance] or ask another question. I have info about'
+      message += 'effects, toxicity, dose information, purity testing, tolerance, safety, or drug interactions.'
     else
       message = complete_unknown_message
     end
