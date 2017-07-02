@@ -8,11 +8,12 @@ class Drug < ApplicationRecord
 
   def substance_profile
     profile = substance_name
-    profile += " (also known as #{alias_string})" if aliases.present?
+    profile += alias_string.to_s
     profile += ': '
     profile += drug_summary.gsub('"', "'")
+    profile += " #{addiction_profile}"
     profile += " Warning note! Avoid #{avoid_info}" if avoid_info
-    profile.gsub('..', '.')
+    profile.gsub('..', '.').strip
   end
 
   def testing_profile
@@ -39,6 +40,29 @@ class Drug < ApplicationRecord
       return "Sorry, we don't know anything about the duration of effects for #{substance_name}"
     end
     duration_of_effects_string.gsub('..', '.')
+  end
+
+  def safety_profile
+    safety_profile = 'No substance is completely safe (not even water). We want you to make informed choices. '
+    safety_profile += " Warning note for #{substance_name}! Avoid #{avoid_info} " if avoid_info
+    safety_profile += toxicity_profile
+    safety_profile += "If you want more information, ask for 'info about #{substance_name}'. "
+    safety_profile.gsub('..', '.')
+  end
+
+  def tolerance_profile
+    unless cross_tolerance_profile || tolerance_time
+      return "Sorry we don't know anything about tolerance for #{substance_name}."
+    end
+    "Here's what we know about #{substance_name}. #{cross_tolerance_profile}#{tolerance_time}"
+  end
+
+  def toxicity_profile
+    if toxicity_info
+      "We have the following toxicity information for #{substance_name}: #{toxicity_info}. "
+    else
+      "We currently have no toxicity information about #{substance_name}. "
+    end
   end
 
   private
@@ -69,12 +93,28 @@ class Drug < ApplicationRecord
   end
 
   def alias_string
-    aliases.map(&:downcase)&.to_sentence
+    return nil if aliases.blank?
+    " (also known as #{aliases.map(&:downcase)&.to_sentence})"
   end
 
   def avoid_info
     return nil unless avoid
     avoid[0] = avoid[0].downcase
     avoid
+  end
+
+  def addiction_profile
+    return '' unless addiction_potential
+    "It is considered #{addiction_potential}."
+  end
+
+  def cross_tolerance_profile
+    return nil unless cross_tolerance
+    "It has a cross-tolerance with #{cross_tolerance}. "
+  end
+
+  def tolerance_time
+    return nil unless time_to_full_tolerance && time_to_zero_tolerance
+    "Full tolerance occurs #{time_to_full_tolerance}. Tolerance diminishes completely in #{time_to_zero_tolerance}. "
   end
 end

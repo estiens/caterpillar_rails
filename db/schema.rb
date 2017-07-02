@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170701070322) do
+ActiveRecord::Schema.define(version: 20170702175610) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,16 +23,22 @@ ActiveRecord::Schema.define(version: 20170701070322) do
     t.string   "onset_summary"
     t.string   "after_effects"
     t.string   "duration_summary"
-    t.text     "effects",          default: [],              array: true
-    t.text     "aliases",          default: [],              array: true
+    t.text     "effects",                default: [],              array: true
+    t.text     "aliases",                default: [],              array: true
     t.string   "drug_summary"
-    t.text     "categories",       default: [],              array: true
+    t.text     "categories",             default: [],              array: true
     t.string   "marquis"
     t.string   "avoid"
     t.string   "general_advice"
     t.json     "full_response"
-    t.datetime "created_at",                    null: false
-    t.datetime "updated_at",                    null: false
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
+    t.string   "toxicity_info"
+    t.string   "chemical_class"
+    t.string   "addiction_potential"
+    t.string   "cross_tolerance"
+    t.string   "time_to_full_tolerance"
+    t.string   "time_to_zero_tolerance"
     t.index ["aliases"], name: "index_drugs_on_aliases", using: :gin
     t.index ["name"], name: "index_drugs_on_name", using: :btree
   end

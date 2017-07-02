@@ -20,6 +20,31 @@ class Response
 
   # rubocop:disable Metrics/MethodLength
   # rubocop:disable Metrics/CyclomaticComplexity
+  def human_intent
+    case @intent
+    when 'interactions_info'
+      'interactions'
+    when 'substance_info'
+      'general substance info'
+    when 'testing_info'
+      'testing substances for purity'
+    when 'dosage_info'
+      'dosing info'
+    when 'effects_info'
+      'info on effects of a substance'
+    when 'duration_info'
+      'duration information'
+    when 'safety_profile'
+      'substance safety'
+    when 'toxicity_profile'
+      'the toxicity of a substance'
+    when 'tolerance_profile'
+      'tolerance and cross tolerances'
+    else
+      "...actually I'm not sure what you wanted to know about"
+    end
+  end
+
   def message_for_intent_and_substance
     case @intent
     when 'interactions_info'
@@ -34,6 +59,12 @@ class Response
       @substance.effects_profile
     when 'duration_info'
       @substance.duration_profile
+    when 'safety_profile'
+      @substance.safety_profile
+    when 'toxicity_profile'
+      @substance.toxicity_profile
+    when 'tolerance_profile'
+      @substance.tolerance_profile
     else
       Rails.logger.info "Intent should have been caught: #{@intent}"
       "Sorry, I didn't know what you meant"
@@ -78,14 +109,16 @@ class Response
 
   def could_not_determine_substance
     message = "Sorry, but I couldn't determine what substance you were inquiring about, "
-    message += "but I think you wanted to know about #{@intent.humanize.downcase.with_indefinite_article}."
+    message += "but I think you wanted to know about #{human_intent}."
     message
   end
 
   def could_not_determine_intent
     if @substance
       message = "I could tell you want info about #{@substance.name}. "
-      message += "I couldn't tell what kind of info. Try info, dosage, effects, or testing"
+      message += "I couldn't tell what kind of info. "
+      message += 'You can try info about [substance] or ask another question. I have info about'
+      message += 'effects, toxicity, dose information, purity testing, tolerance, safety, or drug interactions.'
     else
       message = complete_unknown_message
     end
