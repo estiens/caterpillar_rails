@@ -3,6 +3,14 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
+
+/*COLORS (move to SCSS geez)
+$color1: rgba(91, 192, 235, 1);
+$color2: rgba(253, 231, 76, 1);
+$color3: rgba(155, 197, 61, 1);
+$color4: rgba(229, 89, 52, 1);
+$color5: rgba(250, 121, 33, 1)*/
+
 html,
 body {
   width: 100%;
@@ -12,12 +20,12 @@ body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
 
 a {
-  color: #fdcc52;
+  color: rgba(91, 192, 235, 1);
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s; }
   a:hover, a:focus {
-    color: #fcbd20; }
+    color: rgba(91, 192, 235, .8); }
 
 hr {
   max-width: 100px;
@@ -244,8 +252,38 @@ section.features .feature-item {
   section.features .feature-item {
     max-width: none; } }
 
+.code {
+   background-color: rgba(155, 197, 61, 1);
+}
+
+.code a {
+  color: white;
+}
+
 .philosophy {
-  background-image: url("../img/blue-bg-tile.jpg");
+  background-image: url("../img/tan-tile.png");
+  color: white;
+}
+
+.privacy {
+  background-color: rgba(229, 89, 52, 1);
+}
+
+.credits img {
+  margin-top : -50px;
+  margin-left: 25px;
+}
+
+.contact-icon {
+  font-size: 5em;
+  padding: 50px;
+}
+
+a .contact-icon {
+  color: black;
+}
+
+a .contact-icon:hover {
   color: white;
 }
 section.cta {
@@ -324,9 +362,9 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
+  background: rgba(253, 231, 76, 1);
+  background: -webkit-linear-gradient(rgba(253, 231, 76, 1), rgba(253, 231, 76, .8));
+  background: linear-gradient(rgba(253, 231, 76, 1), rgba(253, 231, 76, .8)); }
 
 .text-primary {
   color: #fdcc52; }
@@ -350,6 +388,9 @@ footer {
   letter-spacing: 2px;
   text-transform: uppercase; }
 
+.hover-button:hover {
+  background-color: pink;
+}
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px; }
