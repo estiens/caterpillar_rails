@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/', to: redirect('home.html')
+
   post 'bot' => 'bot#bot'
   post 'query' => 'bot#text'
 
