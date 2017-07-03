@@ -115,7 +115,7 @@ class Response
 
   def could_not_determine_intent
     message = if @substance
-                "I could tell you want info about #{@substance.name}, not not what type of info. "
+                "I could tell you want info about #{@substance.name}, but not what type of info. "
               else
                 "Sorry, but I couldn't tell what you wanted. "
               end
