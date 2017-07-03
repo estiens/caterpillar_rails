@@ -2,9 +2,18 @@
 [![CircleCI](https://circleci.com/gh/estiens/caterpillar_rails/tree/master.svg?style=svg)](https://circleci.com/gh/estiens/caterpillar_rails/tree/master)
 # ASK THE CATERPILLAR
 
-This is a WIP backend that will initially interface with IBM's Watson Conversation engine and the Psychonaut Wiki to provide an agnostic endpoint for chatbots to send a question about substances and receive an answer.
+Ask The Caterpillar is a harm reduction chatbot that allows people easy access to information about substances so that they can make informed choices.
 
-Not much is here or working yet...readme will be updated as it is!
+https://www.askthecaterpillar.org
+
+Currently it builds substance models using information from [TripSit](https://tripsit.me/) and [PsychonautWiki](https://psychonautwiki.org/wiki/Main_Page).  It uses [RecastAI](https://recast.ai) for natural language processing and for interfacing with Slack, Facebook Messenger, and Twilio(SMS). It also has an endpoint that can take a query and respond with a message, for building chatbots on top of it.
+
+Next steps:
+* Tests
+* Train models on incoming input
+* Decide on what additional information to add
+
+Contributors welcome!
 
 ## Contributors
 * estiens / Eric Stiens
