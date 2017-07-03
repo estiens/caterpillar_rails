@@ -270,7 +270,8 @@ section.features .feature-item {
 }
 
 .credits img {
-  margin-top : -50px;
+  width: 350px
+  margin-top : -40px;
   margin-left: 25px;
 }
 
