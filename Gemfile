@@ -6,18 +6,20 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'bcrypt', '~> 3.1.7'
+gem 'httparty'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'rack-cors'
 gem 'rails', '~> 5.0.1'
-
-gem 'bcrypt', '~> 3.1.7'
-gem 'httparty'
-
 gem 'RecastAI'
 
 group :test do
   gem 'shoulda-matchers', '~> 3.1'
+end
+
+group :production do
+  gem 'newrelic_rpm'
 end
 
 group :development, :test do

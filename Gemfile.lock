@@ -89,6 +89,7 @@ GEM
     minitest (5.10.1)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
+    newrelic_rpm (3.18.1.330)
     nio4r (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
@@ -195,6 +196,7 @@ DEPENDENCIES
   factory_girl_rails
   httparty
   listen (~> 3.0.5)
+  newrelic_rpm
   pg (~> 0.18)
   pry-rails
   puma (~> 3.0)
