@@ -14,7 +14,7 @@ module Recast
     end
 
     def parse_text
-      @response = @client.converse_text(@text)
+      @response = @client.converse_text(@text, language: 'en')
       parse_reply
       { replies: @replies, probable_intent: @intent, substance: @substance_a, interaction_substance: @substance_b }
     end
@@ -23,7 +23,7 @@ module Recast
       incoming_text = @conversation.dig('attachment', 'content')
       sender_id = @conversation['participant']
       chat_id = @conversation['conversation']
-      @response = @client.converse_text(incoming_text, conversation_token: sender_id)
+      @response = @client.converse_text(incoming_text, language: 'en', conversation_token: sender_id)
       parse_reply
       { replies: @replies, probable_intent: @intent, substance: @substance_a,
         interaction_substance: @substance_b, chat_id: chat_id }
