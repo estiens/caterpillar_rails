@@ -251,7 +251,9 @@ section.features .feature-item {
   section.features .device-container,
   section.features .feature-item {
     max-width: none; } }
-
+.bot-description {
+  min-height: 100px;
+}
 .code {
    background-color: rgba(155, 197, 61, 1);
 }
