@@ -1,0 +1,4538 @@
+---
+-
+    substance: modafinil
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 1 before testing
+    marquis: colorless
+    mecke: colorless
+    mandelin: traffic yellow
+    folin: colorless
+    froehde: colorless
+    liebermann: colorless
+    robadope: colorless
+    simons: yellow > red
+    ehrlic: colorless
+    gallic: colorless
+    scott: antique pink
+-
+    substance: 1,4-Butanediol
+    marquis: faint brown
+    mecke: faint brown
+    mandelin: brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 1P-LSD
+    marquis: slow purple
+    mecke: slow purple
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: brown
+    scott:
+-
+    substance: 2,3-Dimethylamphetamine
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde: grey / violet
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2,3-MDA
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2,3-MDMA
+    marquis: yellow > green
+    mecke: yellow > green
+    mandelin: light green
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2,5-DMA
+    marquis: yellow > green
+    mecke: yellow > green
+    mandelin: yellow / green
+    folin:
+    froehde: light green
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2,5-DMeA
+    marquis: no color change
+    mecke: no color change
+    mandelin: brown/yellow
+    folin:
+    froehde: yellow / green
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2,6-Dimethylamphetamine
+    marquis: dark green
+    mecke: dark green
+    mandelin: red AND green
+    folin:
+    froehde: no color change
+    liebermann: yellow > black
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 25B-NBOMe
+    marquis: yellow > orange
+    mecke: yellow > orange
+    mandelin: red AND green
+    folin:
+    froehde: yellow
+    liebermann: yellow > black
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 25C-NBOMe
+    marquis: orange > red
+    mecke: orange > red
+    mandelin: red AND green
+    folin:
+    froehde: yellow
+    liebermann: yellow > black
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 25D-NBOMe
+    marquis: red > yellow
+    mecke: red > yellow
+    mandelin: red
+    folin:
+    froehde:
+    liebermann: yellow > black
+    robadope: no color change
+    simons: red > brown
+    ehrlic: no color change
+    gallic:
+    scott: light green
+-
+    substance: 25E-NBOMe
+    marquis: light brown > brown
+    mecke: light brown > brown
+    mandelin: green/brown > orange
+    folin:
+    froehde: green
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 25H-NBOMe
+    marquis: dark green
+    mecke: dark green
+    mandelin: orange > black
+    folin:
+    froehde:
+    liebermann: orange > black
+    robadope:
+    simons: orange > brown
+    ehrlic:
+    gallic:
+    scott: light green
+-
+    substance: 25I-NBF
+    marquis: dark green
+    mecke: dark green
+    mandelin: orange > black
+    folin:
+    froehde: orange > black
+    liebermann: orange > black
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: orange > black
+    scott:
+-
+    substance: 25I-NBF (blotter)
+    marquis: orange > black
+    mecke: orange > black
+    mandelin: brown > black
+    folin:
+    froehde: orange > black
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: orange > black
+    scott:
+-
+    substance: 25I-NBOMe
+    marquis: red
+    mecke: red
+    mandelin: red AND green
+    folin:
+    froehde: yellow
+    liebermann: yellow > brown
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 25IP-NBOMe
+    marquis: red > brown
+    mecke: red > brown
+    mandelin: blue > black
+    folin:
+    froehde: green
+    liebermann: brown
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 25N-NBOMe
+    marquis: orange > brown
+    mecke: orange > brown
+    mandelin: blue
+    folin:
+    froehde: brown
+    liebermann: yellow brown
+    robadope:
+    simons: red > brown
+    ehrlic: no color change
+    gallic:
+    scott: salmon pink
+-
+    substance: 2-AI
+    marquis: yellow > green
+    mecke: yellow > green
+    mandelin: green
+    folin: (light) purple
+    froehde:
+    liebermann: yellow > black
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 2C-B
+    marquis: yellow > brown green
+    mecke: yellow > brown green
+    mandelin: brown
+    folin:
+    froehde: yellow > green
+    liebermann:
+    robadope: purple
+    simons: no color change or purple
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: 2C-B-FLY
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: green > brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2C-BZ
+    marquis: yellow > green (brown)
+    mecke: yellow > green (brown)
+    mandelin: orange > yellow
+    folin:
+    froehde: green
+    liebermann: yellow > black > clear
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2C-C
+    marquis: yellow > brown
+    mecke: yellow > brown
+    mandelin: green / yellowish
+    folin:
+    froehde: yellow > green
+    liebermann:
+    robadope: (slow) purple
+    simons: pink > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: 2C-D
+    marquis: yellow (pale brown)
+    mecke: yellow (pale brown)
+    mandelin: (yellow) green
+    folin:
+    froehde:
+    liebermann: yellow > black
+    robadope:
+    simons: brown > red
+    ehrlic: no color change
+    gallic: pink
+    scott: no color change
+-
+    substance: 2C-E
+    marquis: deep yellow green
+    mecke: deep yellow green
+    mandelin: orange > brown
+    folin:
+    froehde: yellow
+    liebermann:
+    robadope: clear or light pink
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 2C-H
+    marquis: yellow > green/blue
+    mecke: yellow > green/blue
+    mandelin: (pale) brown > black
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: red > brown
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: 2C-I
+    marquis: orange > red
+    mecke: orange > red
+    mandelin: green
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: red > orange
+    ehrlic: brown
+    gallic:
+    scott: no color change
+-
+    substance: 2C-IP
+    marquis: yellow
+    mecke: yellow
+    mandelin: green
+    folin:
+    froehde:
+    liebermann: green
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 2C-P
+    marquis: fizzes pale orange
+    mecke: fizzes pale orange
+    mandelin: purple
+    folin:
+    froehde: green
+    liebermann: red or purple
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 2C-T-2
+    marquis: fizzes light orange
+    mecke: fizzes light orange
+    mandelin:
+    folin:
+    froehde: orange > purple
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 2C-T-21
+    marquis: pale orange
+    mecke: pale orange
+    mandelin: orange (or purple)
+    folin:
+    froehde:
+    liebermann: purple
+    robadope:
+    simons: greenish blue
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2C-T-4
+    marquis: fizzes pale orange
+    mecke: fizzes pale orange
+    mandelin: red > purple
+    folin:
+    froehde:
+    liebermann: deep purple
+    robadope:
+    simons:
+    ehrlic: purple
+    gallic:
+    scott:
+-
+    substance: 2C-T-7
+    marquis: orange red
+    mecke: orange red
+    mandelin:
+    folin:
+    froehde: violet orange
+    liebermann:
+    robadope: violet spots
+    simons: red > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: 2-DPMP
+    marquis: slow yellow
+    mecke: slow yellow
+    mandelin: pale green
+    folin:
+    froehde:
+    liebermann: yellow > red
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2-FA
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: light yellow
+    gallic:
+    scott:
+-
+    substance: 2F-Ketamine
+    marquis: green > brown
+    mecke: green > brown
+    mandelin: brown > yellow
+    folin:
+    froehde: no color change
+    liebermann: orange
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: light pink / purple
+    scott:
+-
+    substance: 2-FMA
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 2-MeO-DMT
+    marquis: light pink
+    mecke: light pink
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 2-MeO-Ketamine
+    marquis: no color change
+    mecke: no color change
+    mandelin: brown > yellow
+    folin:
+    froehde:
+    liebermann: orange > yellow
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 2-MMC
+    marquis: light yellow
+    mecke: light yellow
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: '2''-Oxo-PCE'
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 3,4-CTMP
+    marquis: yellow / brown
+    mecke: yellow / brown
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 3,4-Dimethylamphetamine
+    marquis: green particles?
+    mecke: green particles?
+    mandelin:
+    folin:
+    froehde: light green
+    liebermann: orange
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 3,4-DMMC
+    marquis: bright yellow
+    mecke: bright yellow
+    mandelin: green > brown
+    folin:
+    froehde: light orange/brown
+    liebermann: yellow > green
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 3,4-MDPV
+    marquis: yellow
+    mecke: yellow
+    mandelin: grey / violet
+    folin:
+    froehde: bright yellow
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic: orange
+    gallic:
+    scott:
+-
+    substance: 3,5-Dimethylamphetamine
+    marquis: orange > red
+    mecke: orange > red
+    mandelin: brown
+    folin:
+    froehde: no color change
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 3C-E
+    marquis: no color change
+    mecke: no color change
+    mandelin: red > yellow
+    folin:
+    froehde:
+    liebermann: no color change
+    robadope:
+    simons: red > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: 3-CMC
+    marquis: (orange) red
+    mecke: (orange) red
+    mandelin: brown
+    folin:
+    froehde: no color change
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 3C-P
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: orange red
+    folin:
+    froehde:
+    liebermann: faint yellow
+    robadope:
+    simons: red > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: 3-FMC
+    marquis: no color change
+    mecke: no color change
+    mandelin: orange red
+    folin:
+    froehde: no color change
+    liebermann: golden (yellow)
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: no color change
+    scott:
+-
+    substance: 3-FPM
+    marquis: brown
+    mecke: brown
+    mandelin:
+    folin:
+    froehde: no color change
+    liebermann: dark brown
+    robadope: no color change
+    simons: pink/blue parts
+    ehrlic: no color change
+    gallic: light pink
+    scott:
+-
+    substance: 3-HO-PCE
+    marquis: magenta - red/violet
+    mecke: magenta - red/violet
+    mandelin: violet - grey/green
+    folin:
+    froehde: black
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: brown
+    gallic:
+    scott:
+-
+    substance: 3-MeO-PCE
+    marquis: faint blue
+    mecke: faint blue
+    mandelin: blue
+    folin:
+    froehde: no color change
+    liebermann: faint yellow
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 3-MeO-PCP
+    marquis: clear > blue
+    mecke: clear > blue
+    mandelin: brown > green
+    folin:
+    froehde: clear or yellow
+    liebermann: reddisch brown
+    robadope:
+    simons: red > purple
+    ehrlic: no color change
+    gallic:
+    scott: light green
+-
+    substance: 3-MMC
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde: no color change
+    liebermann: orange > yellow
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: '4,4''-DMAR'
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 45B-NBOMe
+    marquis: red > purple
+    mecke: red > purple
+    mandelin: to dark brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: red > brown
+    ehrlic:
+    gallic:
+    scott: light green
+-
+    substance: 4-AcO-DALT
+    marquis: olive
+    mecke: olive
+    mandelin: black
+    folin:
+    froehde: yellow > green
+    liebermann: black
+    robadope:
+    simons:
+    ehrlic: purple
+    gallic:
+    scott:
+-
+    substance: 4-AcO-DET
+    marquis: yellow > brown
+    mecke: yellow > brown
+    mandelin:
+    folin:
+    froehde: yellow > green
+    liebermann: black
+    robadope:
+    simons:
+    ehrlic: black
+    gallic:
+    scott:
+-
+    substance: 4-AcO-DiPT
+    marquis: brown
+    mecke: brown
+    mandelin: greenish brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: grayish blue
+    ehrlic: brown
+    gallic:
+    scott:
+-
+    substance: 4-AcO-DMT
+    marquis: yellow > green > brown
+    mecke: yellow > green > brown
+    mandelin:
+    folin:
+    froehde: green > black
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change ?
+    gallic:
+    scott:
+-
+    substance: 4-AcO-DMT
+    marquis: brown
+    mecke: brown
+    mandelin: yellow > black
+    folin:
+    froehde: green > brown
+    liebermann: brown > black
+    robadope:
+    simons:
+    ehrlic: clear > pink > purple
+    gallic: light brown
+    scott:
+-
+    substance: 4-AcO-MET
+    marquis: brownish black
+    mecke: brownish black
+    mandelin: black
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: purple > black
+    gallic:
+    scott:
+-
+    substance: 4-AcO-MiPT
+    marquis: orange green brown
+    mecke: orange green brown
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-BMC
+    marquis: no color change
+    mecke: no color change
+    mandelin: red > yellow
+    folin:
+    froehde: no color change
+    liebermann: yellow
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-CMC
+    marquis: no color change
+    mecke: no color change
+    mandelin: red > yellow
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 4-EMC
+    marquis: no color change
+    mecke: no color change
+    mandelin: yellow
+    folin:
+    froehde:
+    liebermann: yellow
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: 4-FA / 4FMP
+    marquis: maybe slight pink
+    mecke: maybe slight pink
+    mandelin: pale blue
+    folin:
+    froehde: faint purple-blue-brown
+    liebermann: reddish-orange
+    robadope:
+    simons: yellow > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: 4-FA / 4FMP
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: red > green
+    folin:
+    froehde: faint purple-blue-brown
+    liebermann: reddish-orange
+    robadope:
+    simons: yellow > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: 4F-aPVP
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann: no color change
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 4-FBF
+    marquis: orange
+    mecke: orange
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 4F-EPH
+    marquis: no color change
+    mecke: no color change
+    mandelin: yellow
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: yellow
+    gallic: no color change
+    scott:
+-
+    substance: 4-FMA
+    marquis: blue
+    mecke: blue
+    mandelin: red > green
+    folin:
+    froehde:
+    liebermann: orange > red
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 4-FMC
+    marquis: fizzes light pink
+    mecke: fizzes light pink
+    mandelin: yellow brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4F-MPH
+    marquis: no color change
+    mecke: no color change
+    mandelin: yellow
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: yellow
+    gallic: light pink
+    scott:
+-
+    substance: 4-HO-DALT
+    marquis: yellow > brown
+    mecke: yellow > brown
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-HO-DET
+    marquis: yellow > olive
+    mecke: yellow > olive
+    mandelin: black
+    folin:
+    froehde: green
+    liebermann: black
+    robadope:
+    simons:
+    ehrlic: purple > black
+    gallic:
+    scott:
+-
+    substance: 4-HO-DiPT
+    marquis: yellow
+    mecke: yellow
+    mandelin: green
+    folin:
+    froehde:
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic: purple > black
+    gallic:
+    scott:
+-
+    substance: 4-HO-MET
+    marquis: yellow > brown
+    mecke: yellow > brown
+    mandelin: black
+    folin:
+    froehde: yellow > green
+    liebermann: black
+    robadope:
+    simons: no color change
+    ehrlic: purple
+    gallic:
+    scott:
+-
+    substance: 4-HO-MiPT
+    marquis: orange - green (brown)
+    mecke: orange - green (brown)
+    mandelin: yellow > brown
+    folin:
+    froehde: yellow > green
+    liebermann: black
+    robadope:
+    simons:
+    ehrlic: black
+    gallic: pink
+    scott:
+-
+    substance: 4-MAR
+    marquis: orange (slow)
+    mecke: orange (slow)
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-Me-aET
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: brown
+    gallic:
+    scott:
+-
+    substance: 4-MEC
+    marquis: no color change
+    mecke: no color change
+    mandelin: orange
+    folin:
+    froehde: no color change
+    liebermann: yellow orange
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-MeO-PCP
+    marquis: slow red
+    mecke: slow red
+    mandelin: light green
+    folin:
+    froehde: light yellow
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-Me-PPP (Racemic)
+    marquis:
+    mecke:
+    mandelin: orange
+    folin:
+    froehde:
+    liebermann: orange
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 4-Methylbuphedrone
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: yellow
+    gallic:
+    scott:
+-
+    substance: 4-Methyl-PPP
+    marquis: no color change
+    mecke: no color change
+    mandelin: orange
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 4-Me-TMP
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-MMC
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: faint orange
+    folin:
+    froehde: no color change
+    liebermann: bright yellow
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic: no color change
+    scott:
+-
+    substance: 4-MOMC
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde:
+    liebermann: faint orange
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-MPP
+    marquis:
+    mecke:
+    mandelin: pale green
+    folin:
+    froehde:
+    liebermann: pale yellow
+    robadope:
+    simons: red purple
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 4-MTA
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: 5-APB
+    marquis: blue / black
+    mecke: blue / black
+    mandelin: purple > black
+    folin: light orange
+    froehde: purple > black
+    liebermann: black
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 5-APB HCl
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: purple > black
+    folin: light orange
+    froehde: purple > black
+    liebermann: black
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 5-APB Succanate
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: purple > black
+    folin: light orange
+    froehde: purple > black
+    liebermann: black
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 5-APB-NBOME
+    marquis: wine red
+    mecke: wine red
+    mandelin: brown
+    folin:
+    froehde: violet (purple)
+    liebermann: reddish violet brown
+    robadope: no color change
+    simons: pink
+    ehrlic:
+    gallic: no color change
+    scott:
+-
+    substance: 5-APDB
+    marquis: brown (slow)
+    mecke: brown (slow)
+    mandelin: brown
+    folin:
+    froehde: faint green > purple
+    liebermann: black
+    robadope: clear or light pink
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 5-DBFPV
+    marquis: faint purple
+    mecke: faint purple
+    mandelin: black
+    folin:
+    froehde: faint purple
+    liebermann: faint black
+    robadope: orange spots
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 5-EAPB
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: black
+    folin:
+    froehde: faint purple
+    liebermann: brown > black
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic: purple
+    scott:
+-
+    substance: 5F-AKB-48
+    marquis: no color change
+    mecke: no color change
+    mandelin: faint black
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 5-HTP
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: 5-IAI
+    marquis: orange brown
+    mecke: orange brown
+    mandelin:
+    folin:
+    froehde: orange
+    liebermann: dark brown
+    robadope:
+    simons:
+    ehrlic: dark brown
+    gallic:
+    scott:
+-
+    substance: 5-IT
+    marquis: dark red
+    mecke: dark red
+    mandelin: brown
+    folin:
+    froehde: red brown
+    liebermann: (dark) brown
+    robadope:
+    simons:
+    ehrlic: wine
+    gallic:
+    scott:
+-
+    substance: 5-MAPB
+    marquis: instant black
+    mecke: instant black
+    mandelin: black
+    folin:
+    froehde: faint purple
+    liebermann: black
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 5ME
+    marquis: yellow
+    mecke: yellow
+    mandelin: green + orange brown
+    folin:
+    froehde: brown
+    liebermann: orange > red
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: 5ME
+    marquis: orange
+    mecke: orange
+    mandelin: yellow > orange
+    folin:
+    froehde: brown
+    liebermann: orange > red
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: orange
+    scott:
+-
+    substance: 5-MeO-aMT
+    marquis: dark brown
+    mecke: dark brown
+    mandelin: greenish brown
+    folin:
+    froehde:
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: 5-MeO-DALT
+    marquis: olive > brown
+    mecke: olive > brown
+    mandelin: brown
+    folin:
+    froehde: yellow
+    liebermann: orange brown > black
+    robadope:
+    simons:
+    ehrlic: purple
+    gallic: yellow
+    scott:
+-
+    substance: 5-MeO-DET
+    marquis: light brown
+    mecke: light brown
+    mandelin: deep greenish brown
+    folin:
+    froehde:
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic: brown
+    gallic:
+    scott:
+-
+    substance: 5-MeO-DiPT
+    marquis: light orange - green
+    mecke: light orange - green
+    mandelin: deep greenish brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: purple > blue
+    gallic:
+    scott:
+-
+    substance: 5-MeO-DMT
+    marquis: yellow > dark brown
+    mecke: yellow > dark brown
+    mandelin: greenish brown
+    folin:
+    froehde: faint yellow
+    liebermann: brown > black
+    robadope: no color change
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: 5-MeO-DPT
+    marquis: brown
+    mecke: brown
+    mandelin: deep greenish brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: grey/green or brown
+    gallic:
+    scott:
+-
+    substance: 5-MeO-MIPT
+    marquis: orange > brown
+    mecke: orange > brown
+    mandelin: greenish brown
+    folin:
+    froehde:
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic: purple > gray
+    gallic:
+    scott:
+-
+    substance: 6-APB
+    marquis: purple
+    mecke: purple
+    mandelin: purple > black
+    folin: light orange
+    froehde: purple
+    liebermann: dark purple
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 6-APB (Succanate)
+    marquis: purple
+    mecke: purple
+    mandelin: purple > black
+    folin: light orange
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: 6-APDB
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: purple > black
+    folin:
+    froehde: orange > purple
+    liebermann: black
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: A-796,260
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: orange / dark red
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: A-834,735
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: orange / dark red
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: AB-001
+    marquis: yellow > violet
+    mecke: yellow > violet
+    mandelin: blue brown
+    folin:
+    froehde: faint brown
+    liebermann: faint brown
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: AB-034
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: orange / dark red
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Acetylfentanyl
+    marquis: red orange
+    mecke: red orange
+    mandelin: faint blue
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Adderall
+    marquis:
+    mecke:
+    mandelin: green
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Adrafinil
+    marquis: yellow/orange > brown
+    mecke: yellow/orange > brown
+    mandelin: dark brown
+    folin:
+    froehde: orange/red > brown
+    liebermann: orange > brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: a-ET
+    marquis: orange brown
+    mecke: orange brown
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: AH-7921
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: AKB-48
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: ALD-52
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: faint yellow
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: light orange
+    scott:
+-
+    substance: AL-LAD
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: pinkish purple
+    gallic: light purple
+    scott:
+-
+    substance: Allylescaline
+    marquis: orange / red
+    mecke: orange / red
+    mandelin: brown
+    folin:
+    froehde: green - blue > black
+    liebermann: brown > black
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Alprazolam
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde:
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: AM-1248
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: dark yellow
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: AM-2201
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: yellow / brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: AM-2233
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: (dark) yellow
+    robadope:
+    simons:
+    ehrlic:
+    gallic: yellow
+    scott:
+-
+    substance: AM-694
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: (dark) yellow
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: AMB-FUBINACA
+    marquis: pink
+    mecke: pink
+    mandelin: orange
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Amphetamine
+    marquis: orange > red
+    mecke: orange > red
+    mandelin: (dark) green
+    folin: (light) orange
+    froehde: clear or red
+    liebermann: orange > red
+    robadope: red orange
+    simons: light red > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: aMT (αMT)
+    marquis: yellow > brown
+    mecke: yellow > brown
+    mandelin: yellow > orange
+    folin:
+    froehde: faint yellow
+    liebermann: brown > black
+    robadope: no color change
+    simons: clear or red > brown
+    ehrlic: clear > pink > purple
+    gallic:
+    scott: no color change
+-
+    substance: Aniracetam
+    marquis: no color change
+    mecke: no color change
+    mandelin: faint blue (slow)
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: a-PHP (α-PHP)
+    marquis: no color change
+    mecke: no color change
+    mandelin: faint brown
+    folin:
+    froehde: faint yellow
+    liebermann: yellow
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: a-PPP (α-PPP)
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: a-PVP (α-PVP)
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: red
+    folin: orange
+    froehde: faint yellow
+    liebermann: yellow
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: a-PVT (α-PVT)
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: faint yellow
+    robadope: light yellow
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Aspirin
+    marquis: pink > deep red
+    mecke: pink > deep red
+    mandelin: black
+    folin: no color change
+    froehde: blue > purple
+    liebermann: brown
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Benzedrone
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: orange
+    robadope:
+    simons:
+    ehrlic: orange
+    gallic:
+    scott:
+-
+    substance: Benzocaine
+    marquis: no color change
+    mecke: no color change
+    mandelin: light orange-brown
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: intense yellow
+    gallic:
+    scott:
+-
+    substance: Benzphetamine
+    marquis: red > brown
+    mecke: red > brown
+    mandelin: brilliant yellow green
+    folin:
+    froehde: yellow > orange
+    liebermann: yellow > brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Bk-2C-B
+    marquis: yellow > orange
+    mecke: yellow > orange
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: bk-2C-B (βk-2C-B)
+    marquis: bright orange
+    mecke: bright orange
+    mandelin:
+    folin:
+    froehde: orange
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: bk-MDDA (βk-MDDA)
+    marquis: vivid yellow
+    mecke: vivid yellow
+    mandelin: light brown - orange
+    folin:
+    froehde: yellow - lime - green
+    liebermann: brown - dark olive
+    robadope: no color change
+    simons: pink
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Brephedrone
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: yellow
+    robadope:
+    simons:
+    ehrlic: yellow
+    gallic:
+    scott:
+-
+    substance: Buphedrone
+    marquis: no color change
+    mecke: no color change
+    mandelin: orange
+    folin:
+    froehde: faint brown
+    liebermann: (faint) yellow
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Buprenorphine
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Butylone
+    marquis: bright yellow
+    mecke: bright yellow
+    mandelin: green/brown > black
+    folin:
+    froehde: yellow > brown or green
+    liebermann: yellow/green > brown
+    robadope: no color change
+    simons: faint blue
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: Butyrfentanyl
+    marquis: red orange
+    mecke: red orange
+    mandelin: faint orange
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic: faint orange
+    gallic:
+    scott:
+-
+    substance: BZP
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: no color change
+    folin: orange > red
+    froehde: no color change
+    liebermann: light brown
+    robadope: no color change
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: Caffeine
+    marquis: no color change
+    mecke: no color change
+    mandelin: brown
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: Camfetamine
+    marquis: orange > red
+    mecke: orange > red
+    mandelin:
+    folin:
+    froehde: tan > dark yellow
+    liebermann: dark red
+    robadope:
+    simons:
+    ehrlic: red
+    gallic:
+    scott:
+-
+    substance: Cathinone
+    marquis: no color change
+    mecke: no color change
+    mandelin: orange/red
+    folin:
+    froehde: no color change
+    liebermann: bright yellow
+    robadope:
+    simons: no color change
+    ehrlic: faint yellow
+    gallic: no color change
+    scott:
+-
+    substance: CB-13
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: dark green
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Chlorpromazine HCl
+    marquis: deep purplish red
+    mecke: deep purplish red
+    mandelin: dark olive
+    folin:
+    froehde: green > black
+    liebermann: green > black
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Clonazepam
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: C-MDA
+    marquis: yellow > black
+    mecke: yellow > black
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Cocaine
+    marquis: no color change
+    mecke: no color change
+    mandelin: (slight) orange > brown
+    folin: no color change
+    froehde: no color change
+    liebermann: yellow or orange
+    robadope:
+    simons: faint blue
+    ehrlic: no color change
+    gallic:
+    scott: light blue
+-
+    substance: Codeine
+    marquis: dark purple
+    mecke: dark purple
+    mandelin: faint orange
+    folin:
+    froehde:  Green > Red - Brown
+    liebermann: faint brown
+    robadope: no color change
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: Creatine
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: CRL-40,490
+    marquis: yellow
+    mecke: yellow
+    mandelin: brown
+    folin:
+    froehde: yellow
+    liebermann: yellow
+    robadope: no color change
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: CRL-40,941
+    marquis: yellow
+    mecke: yellow
+    mandelin: brown
+    folin:
+    froehde: yellow
+    liebermann: yellow
+    robadope: no color change
+    simons: pink
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Deschloroketamine
+    marquis: no color change
+    mecke: no color change
+    mandelin: red
+    folin:
+    froehde: brown
+    liebermann: yellow
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Desomorphine
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Desoxypipradol
+    marquis: orange
+    mecke: orange
+    mandelin: green
+    folin:
+    froehde:
+    liebermann: brown > black
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: DET
+    marquis: yellow > brown
+    mecke: yellow > brown
+    mandelin: grey - green > yellow
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Dextropropoxyphene
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Diazepam
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: Dihydrocodeine
+    marquis: violet
+    mecke: violet
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Dihydromorphinone
+    marquis: violet / brown
+    mecke: violet / brown
+    mandelin: no color change
+    folin:
+    froehde: dark blue > grey
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Dimethoxy-meth HCl
+    marquis: orange
+    mecke: orange
+    mandelin:
+    folin:
+    froehde: very yellow green
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Dimethylamphetamine
+    marquis: no color change
+    mecke: no color change
+    mandelin: orange > yellow
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Dimethyl-Cathinone
+    marquis: yellow
+    mecke: yellow
+    mandelin:  brown > orange
+    folin:
+    froehde: no color change
+    liebermann: yellow
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Dimethylone
+    marquis: red
+    mecke: red
+    mandelin: yellow
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Diphenidine
+    marquis: brown
+    mecke: brown
+    mandelin: brown
+    folin:
+    froehde: no color change
+    liebermann: orange
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: no color change
+    scott:
+-
+    substance: DiPT
+    marquis: no color change
+    mecke: no color change
+    mandelin: light green
+    folin:
+    froehde: no color change
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic: purple brown
+    gallic:
+    scott:
+-
+    substance: D-Ketamine
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: red
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: no color change
+    scott:
+-
+    substance: DMAA
+    marquis: yellow / green
+    mecke: yellow / green
+    mandelin: yellow > green > brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: DMT
+    marquis: orange > brown
+    mecke: orange > brown
+    mandelin: (faint) green > brown
+    folin:
+    froehde: no color change
+    liebermann: black
+    robadope: light pink
+    simons:
+    ehrlic: clear > pink (> purple)
+    gallic:
+    scott:
+-
+    substance: DOB
+    marquis: deep blue green
+    mecke: deep blue green
+    mandelin: green
+    folin:
+    froehde: yellow > green
+    liebermann: yellow > black
+    robadope:
+    simons: red > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: DOC
+    marquis: yellow > green
+    mecke: yellow > green
+    mandelin: green
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: DOI
+    marquis: (light) green
+    mecke: (light) green
+    mandelin: yellow green
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: faint brown
+    gallic:
+    scott: no color change
+-
+    substance: DOiPR
+    marquis: pink > deep red
+    mecke: pink > deep red
+    mandelin:
+    folin:
+    froehde: yellow > light green
+    liebermann: green > black
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: DOM
+    marquis: no color change
+    mecke: no color change
+    mandelin: green
+    folin:
+    froehde: yellow > green
+    liebermann: yellow > black
+    robadope: no color change
+    simons: pink > brown
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: Doxepin HCl
+    marquis: blackish red
+    mecke: blackish red
+    mandelin: dark reddish brown
+    folin:
+    froehde: deep reddish brown
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: DPT
+    marquis: brown
+    mecke: brown
+    mandelin: brown > black
+    folin:
+    froehde:
+    liebermann: dark brown
+    robadope:
+    simons:
+    ehrlic: purple
+    gallic: no color change
+    scott:
+-
+    substance: DXM
+    marquis: gray > black
+    mecke: gray > black
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: black
+    robadope: no color change
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: DXO
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Ephedrine
+    marquis: no color change
+    mecke: no color change
+    mandelin: light brown
+    folin:
+    froehde: brown or clear
+    liebermann: yellow > orange > red
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: Escaline
+    marquis: red
+    mecke: red
+    mandelin: brown
+    folin:
+    froehde: yellow > green
+    liebermann: black
+    robadope:
+    simons: red > brown
+    ehrlic: no color change
+    gallic: yellow
+    scott: no color change
+-
+    substance: Etaqualone
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: ETH-CAT
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Ethcathinone
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: faint orange
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: ETH-LAD
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: pinkish purple
+    gallic:
+    scott:
+-
+    substance: Ethylmorphine
+    marquis: orange > purple
+    mecke: orange > purple
+    mandelin: green
+    folin:
+    froehde: yellow > green > blue
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Ethylone
+    marquis: bright yellow
+    mecke: bright yellow
+    mandelin: (faint) brown
+    folin: no color change
+    froehde: yellow >  green
+    liebermann: greenish brown
+    robadope: no color change
+    simons: blue
+    ehrlic:
+    gallic: yellow > dark orange
+    scott:
+-
+    substance: Ethylphenidate
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: yellow
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: no color change
+    scott:
+-
+    substance: Etizolam
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic: pinkish
+    scott:
+-
+    substance: Fentanyl
+    marquis: orange > brown
+    mecke: orange > brown
+    mandelin: olive green
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Flephedrone
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Flubromazolam
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Flunitrazepam
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Flurazepam
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde: orange
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Furanylfentanyl
+    marquis: brown
+    mecke: brown
+    mandelin: brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Gramine
+    marquis: faint brown
+    mecke: faint brown
+    mandelin: brown > black
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: light pink
+    gallic:
+    scott:
+-
+    substance: Harmaline
+    marquis: orange > brown
+    mecke: orange > brown
+    mandelin: brown > black
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: light yellow
+    gallic:
+    scott:
+-
+    substance: Harmine
+    marquis: yellow > red
+    mecke: yellow > red
+    mandelin: black
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: HDMP-28
+    marquis: blue
+    mecke: blue
+    mandelin: reddish brown
+    folin:
+    froehde: pinky
+    liebermann: brownish
+    robadope: no color change
+    simons: violet pink
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Heroin
+    marquis: reddisch purple
+    mecke: reddisch purple
+    mandelin: red > (dark) brown
+    folin:
+    froehde: purple red > green
+    liebermann: purple / black
+    robadope: no color change
+    simons: no color change
+    ehrlic: faint brown
+    gallic:
+    scott: no color change
+-
+    substance: Hexen
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: light purple
+    scott:
+-
+    substance: HMDMA
+    marquis: deep purple blue
+    mecke: deep purple blue
+    mandelin: blackish purple
+    folin:
+    froehde:
+    liebermann: deep brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Hydrocodone
+    marquis: purple
+    mecke: purple
+    mandelin: no color change
+    folin:
+    froehde: light yellow
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Hydromorphine
+    marquis: yellow > red > violet
+    mecke: yellow > red > violet
+    mandelin:
+    folin:
+    froehde: dark blue > grey
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Hydromorphone
+    marquis: yellow > red
+    mecke: yellow > red
+    mandelin: no color change
+    folin:
+    froehde: blue > purple
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Hydroxyzine
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: IAP
+    marquis: red
+    mecke: red
+    mandelin: red
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Ibuprofen
+    marquis: no color change
+    mecke: no color change
+    mandelin: dark brown
+    folin:
+    froehde: no color change
+    liebermann: dark reddish brown
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: Indoles (other)
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: pinkish purple
+    gallic:
+    scott:
+-
+    substance: IPH
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: no color change
+    scott:
+-
+    substance: JTE-907
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: black (bubbling)
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: JWH-018
+    marquis: brown
+    mecke: brown
+    mandelin:
+    folin:
+    froehde:
+    liebermann: yellow brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: JWH-019
+    marquis: brown
+    mecke: brown
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: JWH-073
+    marquis: yellow brown
+    mecke: yellow brown
+    mandelin:
+    folin:
+    froehde:
+    liebermann: yellow brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: JWH-081
+    marquis: brown > light brown
+    mecke: brown > light brown
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: JWH-122
+    marquis: red > brown
+    mecke: red > brown
+    mandelin: black
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: JWH-200
+    marquis: yellow orange
+    mecke: yellow orange
+    mandelin:
+    folin:
+    froehde:
+    liebermann: dark yellow - brown
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: JWH-203
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: yellow orange
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: JWH-210
+    marquis: red > brown
+    mecke: red > brown
+    mandelin: brown
+    folin:
+    froehde: orange
+    liebermann: orange > red
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: red
+    scott:
+-
+    substance: JWH-250
+    marquis: brown > pink
+    mecke: brown > pink
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: JWH-307
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: dark yellow
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Ketamine
+    marquis: no color change
+    mecke: no color change
+    mandelin: non or faint orange
+    folin: no color change
+    froehde: no color change
+    liebermann: light yellow
+    robadope: no color change
+    simons: orange > pink > yellow
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: Ketamine H2O sol.
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: light yellow
+    robadope: no color change
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: Levamisol
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: yellow > green/brown
+    folin:
+    froehde:
+    liebermann: red - orange
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott: light green
+-
+    substance: Lidocaine
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott: light green
+-
+    substance: Lisdexamfetamine
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Lorazepam
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: LSD (Blotter)
+    marquis: clear or olive black
+    mecke: clear or olive black
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope: no color change
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: LSD (Drop)
+    marquis: olive black
+    mecke: olive black
+    mandelin: red
+    folin:
+    froehde: yellow green
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: LSD (Microdot)
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: LSZ
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: Mace
+    marquis: moderate yellow
+    mecke: moderate yellow
+    mandelin: moderate olive green
+    folin:
+    froehde: light olive yellow
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: MBDB
+    marquis: purple black
+    mecke: purple black
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: bluish (dark)
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: MBZP
+    marquis:
+    mecke:
+    mandelin: yellowish brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: yellowish red
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: MCAT
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: yellow > gray
+    gallic:
+    scott:
+-
+    substance: mCPP
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: MDA
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: purple/blue > black
+    folin: yellow
+    froehde: yellow > purple > black
+    liebermann: green > dark violet
+    robadope: red orange
+    simons: (light) red > brown
+    ehrlic: black
+    gallic: green > brown (60 sec +)
+    scott: no color change
+-
+    substance: MDAI
+    marquis: orange / brown
+    mecke: orange / brown
+    mandelin: very dark brown
+    folin:
+    froehde: green > black
+    liebermann: green > black
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: MDBP
+    marquis: deep red purple
+    mecke: deep red purple
+    mandelin: deep brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: blue
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: MDE
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: blue > black
+    folin: no color change
+    froehde: yellow > purple > black
+    liebermann: blue
+    robadope: no color change
+    simons: blue
+    ehrlic:
+    gallic: green > brown
+    scott:
+-
+    substance: MDEA
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: blackish purple
+    folin: no color change
+    froehde: yellow > purple > black
+    liebermann: blue
+    robadope: no color change
+    simons:
+    ehrlic:
+    gallic: green > brown
+    scott:
+-
+    substance: MDMA
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: purple/blue > black
+    folin: orange
+    froehde: yellow > purple > black
+    liebermann: intense brown > black
+    robadope: no color change
+    simons: dark blue
+    ehrlic: no color change
+    gallic: green
+    scott: no color change
+-
+    substance: MDMB-CHMICA
+    marquis: purple > black
+    mecke: purple > black
+    mandelin: green
+    folin:
+    froehde: light green/brown
+    liebermann: orange reddisch
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: no color change
+    scott:
+-
+    substance: MDP2P
+    marquis: orange - brown
+    mecke: orange - brown
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic: brown
+    scott:
+-
+    substance: MDPV
+    marquis: fizzes yellow
+    mecke: fizzes yellow
+    mandelin: green / brown
+    folin:
+    froehde: bright yellow
+    liebermann: yellow > green
+    robadope: yellow > green
+    simons: no color change
+    ehrlic: no color change
+    gallic: yellow
+    scott: light green
+-
+    substance: Mebroqualone
+    marquis: no color change
+    mecke: no color change
+    mandelin: red
+    folin:
+    froehde: no color change
+    liebermann: yellow
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Mephedrone
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: clear or faint orange
+    folin:
+    froehde: no color change
+    liebermann: bright yellow
+    robadope: pink > grey/brown
+    simons: no color change
+    ehrlic:
+    gallic: no color change
+    scott:
+-
+    substance: Mephenmetrazine
+    marquis: no color change
+    mecke: no color change
+    mandelin: brown
+    folin:
+    froehde: no color change
+    liebermann: orangy light brown
+    robadope: no color change
+    simons: blue
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Mescaline
+    marquis: strong orange
+    mecke: strong orange
+    mandelin: brown
+    folin: no color change
+    froehde: (light) yellow
+    liebermann: black
+    robadope:
+    simons: red > brown
+    ehrlic: black
+    gallic:
+    scott: no color change
+-
+    substance: Methadone
+    marquis: yellowish pink > violet
+    mecke: yellowish pink > violet
+    mandelin: light > dark green
+    folin:
+    froehde: blue
+    liebermann: pale yellow - beige
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: Methamphetamine
+    marquis: red-orange > brown
+    mecke: red-orange > brown
+    mandelin: yellow > green/blue
+    folin: orange or pink
+    froehde: no color change
+    liebermann: orange reddish
+    robadope: no color change
+    simons: dark blue
+    ehrlic: red > orange
+    gallic:
+    scott: no color change
+-
+    substance: Methcathinone
+    marquis: no color change
+    mecke: no color change
+    mandelin: orange/red
+    folin:
+    froehde: no color change
+    liebermann: bright yellow
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic: no color change
+    scott:
+-
+    substance: Methedrone
+    marquis: no color change
+    mecke: no color change
+    mandelin: brown
+    folin:
+    froehde: faint purple > black
+    liebermann: brown
+    robadope: no color change
+    simons: no color change
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Methylone
+    marquis: bright yellow
+    mecke: bright yellow
+    mandelin: yellow/green > brown
+    folin: no color change
+    froehde: bright yellow
+    liebermann: yellow > blue
+    robadope: grey / brown
+    simons: faint blue
+    ehrlic: no color change
+    gallic: yellow
+    scott: no color change
+-
+    substance: Methylphenidate
+    marquis: light orange
+    mecke: light orange
+    mandelin: faint orange
+    folin:
+    froehde:
+    liebermann: yellow - orange
+    robadope:
+    simons: pale violet
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: MiPT
+    marquis: greenish brown
+    mecke: greenish brown
+    mandelin: greenish brown
+    folin:
+    froehde:
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic: red/purple or brown
+    gallic:
+    scott:
+-
+    substance: MMDA
+    marquis: orange > magenta
+    mecke: orange > magenta
+    mandelin: orange > orange/red
+    folin:
+    froehde: Blue > Dark Blue
+    liebermann:
+    robadope:
+    simons: red > brown
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: MNA
+    marquis: blue > black
+    mecke: blue > black
+    mandelin: yellow > dark brown
+    folin:
+    froehde: purple
+    liebermann: light orange
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: no color change
+    scott:
+-
+    substance: Modafinil
+    marquis: yellow/orange > brown
+    mecke: yellow/orange > brown
+    mandelin: brownish red
+    folin:
+    froehde: deep orange / red
+    liebermann: darkening orange
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Morphine
+    marquis: red > (light) purple
+    mecke: red > (light) purple
+    mandelin: clear or grey
+    folin:
+    froehde: (dark) purple
+    liebermann: blue / black
+    robadope: no color change
+    simons: orange > pink > orange
+    ehrlic: black
+    gallic:
+    scott: no color change
+-
+    substance: MPA
+    marquis: dark brown
+    mecke: dark brown
+    mandelin: reddish brown
+    folin:
+    froehde: light brown
+    liebermann: turquoise blue
+    robadope: no color change
+    simons: deep blue
+    ehrlic: orange > brown
+    gallic:
+    scott:
+-
+    substance: MSM
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: MT-45
+    marquis: faint light brown
+    mecke: faint light brown
+    mandelin: no color change
+    folin:
+    froehde: light yellow
+    liebermann: dark orange red
+    robadope: no color change
+    simons: pink
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: MTTA
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: MXE
+    marquis: pink (slow)
+    mecke: pink (slow)
+    mandelin: no color change
+    folin: no color change
+    froehde: clear or yellow > green
+    liebermann: yellow > brown
+    robadope: no color change
+    simons: slow pink / red
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: MXP
+    marquis: red
+    mecke: red
+    mandelin: faint brown
+    folin:
+    froehde:
+    liebermann: brown > black
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: no color change
+    scott:
+-
+    substance: N,N-DMC
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde:
+    liebermann: faint yellow
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: N,N-DPT HCl
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: violet
+    gallic:
+    scott:
+-
+    substance: Naphyrone
+    marquis: yellow > green
+    mecke: yellow > green
+    mandelin: brown
+    folin:
+    froehde: faint orange
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: NEB
+    marquis: no color change
+    mecke: no color change
+    mandelin: orange
+    folin:
+    froehde: no color change
+    liebermann: faint yellow
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: NEP
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: N-Ethyl-Ketamine
+    marquis: no color change
+    mecke: no color change
+    mandelin: red
+    folin:
+    froehde: no color change
+    liebermann: pale yellow
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: N-Ethylpentylone
+    marquis: yellow
+    mecke: yellow
+    mandelin: green + orange
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Nitracaine
+    marquis: no color change
+    mecke: no color change
+    mandelin: red
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: NM-2201
+    marquis: dark brown
+    mecke: dark brown
+    mandelin: brown > black
+    folin:
+    froehde: yellow > green
+    liebermann: green > black
+    robadope:
+    simons:
+    ehrlic:
+    gallic: light yellow
+    scott:
+-
+    substance: NM-2AI
+    marquis: blood red
+    mecke: blood red
+    mandelin: turns to deep blue
+    folin:
+    froehde: light pink
+    liebermann: orange red
+    robadope: no color change
+    simons: deep blue
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: N-Me-4,4‘
+    marquis: yellow > orange
+    mecke: yellow > orange
+    mandelin: light brown
+    folin:
+    froehde: yellow
+    liebermann: yellow
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: N-methyl-PAL-287
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: NMT
+    marquis: faint yellow
+    mecke: faint yellow
+    mandelin: faint brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: purple
+    gallic:
+    scott:
+-
+    substance: Noopept
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: O-Desmethyltramadol
+    marquis: orange red
+    mecke: orange red
+    mandelin:
+    folin:
+    froehde: blue > olive
+    liebermann: brown > black
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Opium
+    marquis: reddish brown or purple
+    mecke: reddish brown or purple
+    mandelin: dark brown
+    folin:
+    froehde: brownish black
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Oxandrolone
+    marquis: yellow
+    mecke: yellow
+    mandelin: yellow > brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Oxiracetam
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Oxycodone
+    marquis: pale violet
+    mecke: pale violet
+    mandelin: yellow > green
+    folin:
+    froehde: yellow > blue (or green)
+    liebermann: purple
+    robadope:
+    simons: no color change
+    ehrlic: purple
+    gallic:
+    scott:
+-
+    substance: Oxymorphone
+    marquis: magenta > violet
+    mecke: magenta > violet
+    mandelin: black
+    folin:
+    froehde: blue > violet
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: P-28
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Paracetamol
+    marquis: no color change
+    mecke: no color change
+    mandelin: moderate olive
+    folin:
+    froehde: pale blue
+    liebermann: brownish purple
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: PCE
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: PCP
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott: light blue
+-
+    substance: Pentedrone
+    marquis: no color change
+    mecke: no color change
+    mandelin: faint brownish
+    folin:
+    froehde: no color change
+    liebermann: yellow
+    robadope: fizzes clear
+    simons: blue violet
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Pentylone
+    marquis: yellow
+    mecke: yellow
+    mandelin: brown
+    folin:
+    froehde: yellow > faint orange
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: orange
+    scott:
+-
+    substance: Pethidine
+    marquis: slow orange
+    mecke: slow orange
+    mandelin: no color change
+    folin:
+    froehde: clear or yellow
+    liebermann: red - orange
+    robadope:
+    simons:
+    ehrlic: red > orange
+    gallic:
+    scott:
+-
+    substance: Phenacetin
+    marquis: no color change
+    mecke: no color change
+    mandelin: green > brown
+    folin:
+    froehde:
+    liebermann: violet
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: Phenazepam
+    marquis: faint orange
+    mecke: faint orange
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Phenetrazine
+    marquis: no color change
+    mecke: no color change
+    mandelin: faint orange
+    folin:
+    froehde:
+    liebermann: orange
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Phentermine
+    marquis: orange brown
+    mecke: orange brown
+    mandelin: green
+    folin:
+    froehde: brown
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Piracetam
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: PMA
+    marquis: no color change
+    mecke: no color change
+    mandelin: green > brown
+    folin: light yellow
+    froehde: light yellow (or green)
+    liebermann: purple > brown
+    robadope: '> pink > grey/brown'
+    simons: red > orange/brown
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: PMMA
+    marquis: no color change
+    mecke: no color change
+    mandelin: green > brown
+    folin: light orange
+    froehde: light green
+    liebermann: purple > brown
+    robadope: no color change
+    simons: deep blue
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: Pramiracetam
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: PRL-8-53
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: yellow
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Procaine
+    marquis: no color change
+    mecke: no color change
+    mandelin: deep orange
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: intense yellow
+    gallic:
+    scott:
+-
+    substance: Propylhexedrine
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Proscaline
+    marquis: orange / red
+    mecke: orange / red
+    mandelin: brown > black
+    folin:
+    froehde: yellow > green
+    liebermann: brown > black
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic: light yellow
+    scott:
+-
+    substance: Psilocin
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: Psilocybin
+    marquis: orange
+    mecke: orange
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: clear > pink > purple
+    gallic:
+    scott:
+-
+    substance: Quinine
+    marquis: light yellow
+    mecke: light yellow
+    mandelin: oange > green
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: RCS-4
+    marquis: greenish brown
+    mecke: greenish brown
+    mandelin: brown > black
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: Salt (Sodium Chloride)
+    marquis: fizzes clear
+    mecke: fizzes clear
+    mandelin: strong orange
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Scopolamine
+    marquis: yellow
+    mecke: yellow
+    mandelin: light green
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: STS-135
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Sugar
+    marquis: (slow) dark brown
+    mecke: (slow) dark brown
+    mandelin: slow brown
+    folin: no color change
+    froehde: brilliant yellow
+    liebermann: very light purple
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: Sunifiram
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope: no color change
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Tetracaine
+    marquis: no color change
+    mecke: no color change
+    mandelin:
+    folin:
+    froehde:
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Tetrahydropalmatine
+    marquis: no color change
+    mecke: no color change
+    mandelin: grey
+    folin:
+    froehde: no color change
+    liebermann: faint black
+    robadope: clear or light pink
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: TFMPP
+    marquis: no color change
+    mecke: no color change
+    mandelin: no color change
+    folin: slow red
+    froehde: no color change
+    liebermann: no color change
+    robadope: no color change
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: THJ-2201
+    marquis: orange > black
+    mecke: orange > black
+    mandelin: brown > black
+    folin:
+    froehde: brown > black
+    liebermann: brown > black
+    robadope: clear or light pink
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: TMA
+    marquis: orange / red
+    mecke: orange / red
+    mandelin: greenish brown
+    folin:
+    froehde: yellow
+    liebermann:
+    robadope:
+    simons: no color change
+    ehrlic:
+    gallic:
+    scott: no color change
+-
+    substance: TMA-2
+    marquis: light green
+    mecke: light green
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: TMA-6
+    marquis: yellow > orange
+    mecke: yellow > orange
+    mandelin: deep red
+    folin:
+    froehde: clear (yellow)
+    liebermann: brown
+    robadope:
+    simons: (pale) red purple
+    ehrlic: clear or briljant red
+    gallic:
+    scott:
+-
+    substance: U-47700
+    marquis: no color change
+    mecke: no color change
+    mandelin: faint orange
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: UR-144
+    marquis: purple
+    mecke: purple
+    mandelin: blue > black
+    folin:
+    froehde:
+    liebermann: dark red
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: URB-597
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: yellow / brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: URB-602/754
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: dark brown
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Viagra/Sildenafil
+    marquis: no color change
+    mecke: no color change
+    mandelin: faint brown
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic: no color change
+    gallic:
+    scott:
+-
+    substance: Vitamine C
+    marquis: very light yellow
+    mecke: very light yellow
+    mandelin: pale blue
+    folin: no color change
+    froehde: pale yellow
+    liebermann: brown > purple/black
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: WIN 25,978/AFA
+    marquis: no color change
+    mecke: no color change
+    mandelin: brown
+    folin:
+    froehde: no color change
+    liebermann: no color change
+    robadope:
+    simons: to light pink
+    ehrlic: no color change
+    gallic:
+    scott: no color change
+-
+    substance: XLR-11
+    marquis: reddish purple
+    mecke: reddish purple
+    mandelin: blue > dark blue
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Xylopropamine
+    marquis: violet - orange/red
+    mecke: violet - orange/red
+    mandelin: yellow - brown/yellow
+    folin:
+    froehde: yellow - brown / yellow
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: Yohimbine
+    marquis:
+    mecke:
+    mandelin:
+    folin:
+    froehde:
+    liebermann: blue
+    robadope:
+    simons:
+    ehrlic:
+    gallic:
+    scott:
+-
+    substance: α-Asarone (Asarone)
+    marquis: yellow
+    mecke: yellow
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic: orange
+    scott:
+-
+    substance: β-Asarone (Asarone)
+    marquis: yellow
+    mecke: yellow
+    mandelin:
+    folin:
+    froehde:
+    liebermann:
+    robadope:
+    simons:
+    ehrlic:
+    gallic: dark yellow
+    scott:

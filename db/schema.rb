@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170709003442) do
+ActiveRecord::Schema.define(version: 20170709031137) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,6 +44,10 @@ ActiveRecord::Schema.define(version: 20170709003442) do
     t.string   "froehde_test"
     t.string   "gallic_acid_test"
     t.string   "ehrlic_test"
+    t.string   "folin_test"
+    t.string   "robadope_test"
+    t.string   "simons_test"
+    t.string   "scott_test"
     t.index ["aliases"], name: "index_drugs_on_aliases", using: :gin
     t.index ["name"], name: "index_drugs_on_name", using: :btree
   end

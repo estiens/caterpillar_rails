@@ -87,12 +87,14 @@ class Drug < ApplicationRecord
   end
 
   def tests
-    [marquis_test, mandelin_test, mecke_test, liebermann_test, froehde_test, gallic_acid_test, ehrlic_test].compact
+    [marquis_test, mandelin_test, mecke_test, liebermann_test, froehde_test,
+     gallic_acid_test, ehrlic_test, folin_test, robadope_test, simons_test, scott_test].compact
   end
 
   # rubocop:disable Metrics/AbcSize
   # rubocop:disable Metrics/CyclomaticComplexity
   # rubocop:disable Metrics/PerceivedComplexity
+  # rubocop:disable Metrics/MethodLength
   def test_results
     test_result_string = ''
     test_result_string += "Marquis test: #{marquis_test}. " if marquis_test
@@ -101,8 +103,12 @@ class Drug < ApplicationRecord
     test_result_string += "Liebermann Test: #{liebermann_test}. " if liebermann_test
     test_result_string += "Froehde Test: #{froehde_test}. " if froehde_test
     test_result_string += "Gallic Acid Test: #{gallic_acid_test}. " if gallic_acid_test
-    test_result_string += "Ehrlic Test: #{ehrlic_test}." if ehrlic_test
-    test_result_string
+    test_result_string += "Ehrlic Test: #{ehrlic_test}. " if ehrlic_test
+    test_result_string += "Folin Test: #{folin_test}. " if folin_test
+    test_result_string += "Robadope Test: #{robadope_test}. " if robadope_test
+    test_result_string += "Simon's Test: #{simons_test}. " if simons_test
+    test_result_string += "Scott Test: #{scott_test}. " if scott_test
+    test_result_string.strip
   end
   # rubocop:enable
 
