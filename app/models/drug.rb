@@ -1,7 +1,7 @@
 class Drug < ApplicationRecord
 
   def self.find_with_aliases(name)
-    name = name.downcase
+    name = name&.downcase
     drug = find_by(name: name)
     return drug if drug
     find_by('? = ANY (aliases)', name)
