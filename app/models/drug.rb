@@ -1,9 +1,14 @@
 class Drug < ApplicationRecord
 
   def self.find_with_aliases(name)
+    name = name.downcase
     drug = find_by(name: name)
     return drug if drug
     find_by('? = ANY (aliases)', name)
+  end
+
+  def substance_name
+    name.upcase == name ? name : name.humanize
   end
 
   def substance_profile
@@ -17,7 +22,8 @@ class Drug < ApplicationRecord
   end
 
   def testing_profile
-    tests ? tests : "Sorry, we do not have test kit info for #{substance_name}"
+    return "Sorry, we do not have test kit info for #{substance_name}" if tests.empty?
+    "We have the following reagent test results for #{substance_name}. #{test_results}"
   end
 
   def dose_profile
@@ -81,16 +87,24 @@ class Drug < ApplicationRecord
   end
 
   def tests
-    return nil unless marquis || test_kits
-    testing_profile = "Test info for #{substance_name}. "
-    testing_profile += "Marquis test should be #{marquis}. " if marquis
-    testing_profile += "All test kits: #{test_kits}" if test_kits
-    testing_profile.gsub('..', '.')
+    [marquis_test, mandelin_test, mecke_test, liebermann_test, froehde_test, gallic_acid_test, ehrlic_test].compact
   end
 
-  def substance_name
-    name.upcase == name ? name : name.humanize
+  # rubocop:disable Metrics/AbcSize
+  # rubocop:disable Metrics/CyclomaticComplexity
+  # rubocop:disable Metrics/PerceivedComplexity
+  def test_results
+    test_result_string = ''
+    test_result_string += "Marquis test: #{marquis_test}. " if marquis_test
+    test_result_string += "Mandelin test: #{mandelin_test}. " if mandelin_test
+    test_result_string += "Mecke test: #{mecke_test}. " if mecke_test
+    test_result_string += "Liebermann Test: #{liebermann_test}. " if liebermann_test
+    test_result_string += "Froehde Test: #{froehde_test}. " if froehde_test
+    test_result_string += "Gallic Acid Test: #{gallic_acid_test}. " if gallic_acid_test
+    test_result_string += "Ehrlic Test: #{ehrlic_test}." if ehrlic_test
+    test_result_string
   end
+  # rubocop:enable
 
   def alias_string
     return nil if aliases.blank?

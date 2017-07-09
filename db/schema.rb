@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170702175610) do
+ActiveRecord::Schema.define(version: 20170709003442) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 20170702175610) do
   create_table "drugs", force: :cascade do |t|
     t.string   "name"
     t.string   "detection"
-    t.string   "test_kits"
     t.string   "dose_summary"
     t.string   "onset_summary"
     t.string   "after_effects"
@@ -27,7 +26,6 @@ ActiveRecord::Schema.define(version: 20170702175610) do
     t.text     "aliases",                default: [],              array: true
     t.string   "drug_summary"
     t.text     "categories",             default: [],              array: true
-    t.string   "marquis"
     t.string   "avoid"
     t.string   "general_advice"
     t.json     "full_response"
@@ -39,6 +37,13 @@ ActiveRecord::Schema.define(version: 20170702175610) do
     t.string   "cross_tolerance"
     t.string   "time_to_full_tolerance"
     t.string   "time_to_zero_tolerance"
+    t.string   "marquis_test"
+    t.string   "mandelin_test"
+    t.string   "mecke_test"
+    t.string   "liebermann_test"
+    t.string   "froehde_test"
+    t.string   "gallic_acid_test"
+    t.string   "ehrlic_test"
     t.index ["aliases"], name: "index_drugs_on_aliases", using: :gin
     t.index ["name"], name: "index_drugs_on_name", using: :btree
   end

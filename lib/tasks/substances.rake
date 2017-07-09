@@ -25,4 +25,22 @@ namespace :substances do
       end
     end
   end
+
+  desc 'load current reagent info for substances'
+  task load_reagent_info: :environment do
+    reagent_info = YAML.load_file(Rails.root.join('lib', 'reference', 'reagent_test.yml'))
+    reagent_info.each do |info|
+      drug = Drug.find_with_aliases(info['Substance'])
+      next unless drug
+      puts "writing test info for drug: #{drug.substance_name}"
+      drug.marquis_test = info['Marquis']
+      drug.mandelin_test = info['Mandelin']
+      drug.mecke_test = info['Mecke']
+      drug.liebermann_test = info['Liebermann']
+      drug.froehde_test = info['Froehde']
+      drug.gallic_acid_test = info['Gallic acid']
+      drug.ehrlic_test = info['Ehrlich']
+      drug.save
+    end
+  end
 end

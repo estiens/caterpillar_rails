@@ -67,9 +67,7 @@ module TripSit
       @new_substance.effects = effects
       @new_substance.categories = @info['categories']
       @new_substance.aliases = @info['aliases']
-      @new_substance.test_kits = @info['test-kits']
       @new_substance.detection = @info['detection']
-      @new_substance.marquis = @info['marquis']
       @new_substance.avoid = @info['avoid']
     end
   end
