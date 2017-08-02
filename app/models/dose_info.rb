@@ -11,61 +11,56 @@ class DoseInfo < ApplicationRecord
   end
 
   def insufflation_dose_string
-    insufflation_doses = []
-    insufflation_doses << threshold_insufflation_dose_string
-    insufflation_doses << light_insufflation_dose_string
-    insufflation_doses << common_insufflation_dose_string
-    insufflation_doses << strong_insufflation_dose_string
-    insufflation_doses << heavy_insufflation_dose_string
     return nil if insufflation_doses.compact.empty?
     "Insufflation (snorting) doses: #{insufflation_doses.compact.join(' | ')}"
   end
 
   def oral_dose_string
-    oral_doses = []
-    oral_doses << threshold_oral_dose_string
-    oral_doses << light_oral_dose_string
-    oral_doses << common_oral_dose_string
-    oral_doses << strong_oral_dose_string
-    oral_doses << heavy_oral_dose_string
     return nil if oral_doses.compact.empty?
     "Oral doses: #{oral_doses.compact.join(' | ')}"
   end
 
   def intravenous_dose_string
-    intravenous_doses = []
-    intravenous_doses << threshold_intravenous_dose_string
-    intravenous_doses << light_intravenous_dose_string
-    intravenous_doses << common_intravenous_dose_string
-    intravenous_doses << strong_intravenous_dose_string
-    intravenous_doses << heavy_intravenous_dose_string
     return nil if intravenous_doses.compact.empty?
     "Intravenous doses: #{intravenous_doses.compact.join(' | ')}"
   end
 
   def smoked_dose_string
-    smoked_doses = []
-    smoked_doses << threshold_smoked_dose_string
-    smoked_doses << light_smoked_dose_string
-    smoked_doses << common_smoked_dose_string
-    smoked_doses << strong_smoked_dose_string
-    smoked_doses << heavy_smoked_dose_string
     return nil if smoked_doses.compact.empty?
     "Smoking doses: #{smoked_doses.compact.join(' | ')}"
   end
 
   def sublingual_dose_string
-    sublingual_doses = []
-    sublingual_doses << threshold_sublingual_dose_string
-    sublingual_doses << light_sublingual_dose_string
-    sublingual_doses << common_sublingual_dose_string
-    sublingual_doses << strong_sublingual_dose_string
-    sublingual_doses << heavy_sublingual_dose_string
     return nil if sublingual_doses.compact.empty?
     "Sublingual doses: #{sublingual_doses.compact.join(' | ')}"
   end
 
   private
+
+  def insufflation_doses
+    [threshold_insufflation_dose_string, light_insufflation_dose_string, common_insufflation_dose_string,
+     strong_insufflation_dose_string, heavy_insufflation_dose_string]
+  end
+
+  def oral_doses
+    [threshold_oral_dose_string, light_oral_dose_string, common_oral_dose_string,
+     strong_oral_dose_string, heavy_oral_dose_string]
+  end
+
+  def intravenous_doses
+    [threshold_intravenous_dose_string, light_intravenous_dose_string, common_intravenous_dose_string,
+     strong_intravenous_dose_string, heavy_intravenous_dose_string]
+  end
+
+  def smoked_doses
+    [threshold_smoked_dose_string, light_smoked_dose_string, common_smoked_dose_string,
+     strong_smoked_dose_string, heavy_smoked_dose_string]
+  end
+
+  def sublingual_doses
+    [threshold_sublingual_dose_string, light_sublingual_dose_string, common_sublingual_dose_string,
+     strong_sublingual_dose_string, heavy_sublingual_dose_string]
+  end
 
   def threshold_insufflation_dose_string
     return nil unless insufflated_threshold_dose
