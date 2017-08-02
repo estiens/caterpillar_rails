@@ -15,8 +15,8 @@ namespace :substances do
           puts "#{substance} skipped"
         elsif new_substance
           puts "#{substance} updated - fetching more information..."
-          pn_requester = Psychonaut::SubstanceRequester.new(substance: new_substance)
-          puts 'updated info' if pn_requester.add_extra_information
+          pn_requester = Psychonaut::SubstanceRequester.new(substance: new_substance, force: force)
+          puts 'updated info' if pn_requester.write_information_for_substance
         else
           puts "#{substance} not found"
         end

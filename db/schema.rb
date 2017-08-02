@@ -10,10 +10,62 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170709031137) do
+ActiveRecord::Schema.define(version: 20170802170932) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "dose_infos", force: :cascade do |t|
+    t.string   "insufflated_dose_units"
+    t.string   "insufflated_heavy_dose"
+    t.string   "insufflated_max_common_dose"
+    t.string   "insufflated_max_light_dose"
+    t.string   "insufflated_max_strong_dose"
+    t.string   "insufflated_min_common_dose"
+    t.string   "insufflated_min_light_dose"
+    t.string   "insufflated_min_strong_dose"
+    t.string   "insufflated_threshold_dose"
+    t.string   "intravenous_dose_units"
+    t.string   "intravenous_heavy_dose"
+    t.string   "intravenous_max_common_dose"
+    t.string   "intravenous_max_light_dose"
+    t.string   "intravenous_max_strong_dose"
+    t.string   "intravenous_min_common_dose"
+    t.string   "intravenous_min_light_dose"
+    t.string   "intravenous_min_strong_dose"
+    t.string   "intravenous_threshold_dose"
+    t.string   "oral_dose_units"
+    t.string   "oral_heavy_dose"
+    t.string   "oral_max_common_dose"
+    t.string   "oral_max_light_dose"
+    t.string   "oral_max_strong_dose"
+    t.string   "oral_min_common_dose"
+    t.string   "oral_min_light_dose"
+    t.string   "oral_min_strong_dose"
+    t.string   "oral_threshold_dose"
+    t.string   "sublingual_dose_units"
+    t.string   "sublingual_heavy_dose"
+    t.string   "sublingual_max_common_dose"
+    t.string   "sublingual_max_light_dose"
+    t.string   "sublingual_max_strong_dose"
+    t.string   "sublingual_min_common_dose"
+    t.string   "sublingual_min_light_dose"
+    t.string   "sublingual_min_strong_dose"
+    t.string   "sublingual_threshold_dose"
+    t.string   "smoked_dose_units"
+    t.string   "smoked_heavy_dose"
+    t.string   "smoked_max_common_dose"
+    t.string   "smoked_max_light_dose"
+    t.string   "smoked_max_strong_dose"
+    t.string   "smoked_min_common_dose"
+    t.string   "smoked_min_light_dose"
+    t.string   "smoked_min_strong_dose"
+    t.string   "smoked_threshold_dose"
+    t.integer  "drug_id"
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+    t.index ["drug_id"], name: "index_dose_infos_on_drug_id", using: :btree
+  end
 
   create_table "drugs", force: :cascade do |t|
     t.string   "name"
