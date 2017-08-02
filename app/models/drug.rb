@@ -1,4 +1,5 @@
 class Drug < ApplicationRecord
+  has_one :dose_info
 
   def self.find_with_aliases(name)
     name = name&.downcase
@@ -27,11 +28,8 @@ class Drug < ApplicationRecord
   end
 
   def dose_profile
-    return "Sorry, we don't have any reported dosing information for #{substance_name}." unless dose_summary
-    summary = "We have the following dose information for #{substance_name}: "
-    summary += dose_summary
-    summary += " Warning note! Avoid #{avoid_info}" if avoid_info
-    summary.gsub('..', '.')
+    return extended_dose_info if dose_info&.info_string
+    basic_dose_info
   end
 
   def effects_profile
@@ -72,6 +70,20 @@ class Drug < ApplicationRecord
   end
 
   private
+
+  def extended_dose_info
+    summary = dose_info.info_string
+    summary += " Warning note! Avoid #{avoid_info}" if avoid_info
+    summary
+  end
+
+  def basic_dose_info
+    return "Sorry, we don't have any reported dosing information for #{substance_name}." unless dose_summary
+    summary = "We have the following dose information for #{substance_name}: "
+    summary += dose_summary
+    summary += " Warning note! Avoid #{avoid_info}" if avoid_info
+    summary.gsub('..', '.')
+  end
 
   def duration_of_effects_string
     profile = "This is the duration information we have for #{substance_name}. "

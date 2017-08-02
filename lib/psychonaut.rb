@@ -5,15 +5,37 @@ module Psychonaut
 
   class SubstanceRequester
 
-    def initialize(substance:)
+    def initialize(substance:, force: false)
       @info = nil
       @substance = substance
+      @force = force
     end
 
-    def add_extra_information
-      @info = info_lookup(@substance.name)
+    def info_lookup
+      lookup_substance(@substance.name)
       try_aliases if @info.blank?
+    end
+
+    def write_information_for_substance
+      info_lookup
       return if @info.blank?
+      create_dosage_information unless @substance.dose_info && !@force
+      create_other_information
+    end
+
+    private
+
+    def create_dosage_information
+      column_names = DoseInfo.column_names.select { |attr| attr.include?('dose') }
+      dosage_info = DoseInfo.where(drug_id: @substance.id).first_or_initialize
+      column_names.each do |column|
+        dosage_info.write_attribute(column.to_sym, extract_all_values_from_key(key: column))
+      end
+      dosage_info.save
+    end
+
+    def create_other_information
+      return if @substance.chemical_class && !@force
       @substance.toxicity_info = extract_all_values_from_key(key: 'toxicity')
       @substance.chemical_class = extract_all_values_from_key(key: 'chemical_class')
       @substance.addiction_potential = extract_all_values_from_key(key: 'addiction_potential')
@@ -23,19 +45,17 @@ module Psychonaut
       @substance.save
     end
 
-    private
-
-    def info_lookup(name)
+    def lookup_substance(name)
       encoded_subject = name.encode('ASCII', invalid: :replace, undef: :replace, replace: '')
       response = HTTParty.get(BASE_URL + "&subject=#{encoded_subject}")
       body = JSON.parse(response.body)
-      body.dig('query', 'data')
+      @info = body.dig('query', 'data')
     end
 
     def try_aliases
       return if @substance.aliases.blank?
       @substance.aliases.each do |name|
-        @info = info_lookup(name)
+        @info = lookup_substance(name)
         return @info if @info.present?
       end
     end

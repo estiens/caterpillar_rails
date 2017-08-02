@@ -7,7 +7,7 @@ module TripSit
   DRUG_INTERACTION_URL = BASE_URL + '/getInteraction'
 
   class SubstanceRequester
-    def initialize(subject:, force: true)
+    def initialize(subject:, force: false)
       @subject = subject
       @force = force
       @name = nil
