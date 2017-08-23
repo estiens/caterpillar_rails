@@ -4,9 +4,9 @@
 
 Ask The Caterpillar is a harm reduction chatbot that allows people easy access to information about substances so that they can make informed choices.
 
-https://www.askthecaterpillar.org
+https://www.askthecaterpillar.com
 
-Currently it builds substance models using information from [TripSit](https://tripsit.me/) and [PsychonautWiki](https://psychonautwiki.org/wiki/Main_Page).  It uses [RecastAI](https://recast.ai) for natural language processing and for interfacing with Slack, Facebook Messenger, and Twilio(SMS). It also has an endpoint that can take a query and respond with a message, for building chatbots on top of it.
+Currently it builds substance models using information from [TripSit](https://tripsit.me/) and [PsychonautWiki](https://psychonautwiki.org/wiki/Main_Page).  It uses [RecastAI](https://recast.ai) for natural language processing and for interfacing with Slack, Facebook Messenger, Telegram, and Twilio(SMS). It also has an endpoint that can take a query and respond with a message, for building chatbots on top of it.
 
 Next steps:
 * Tests
