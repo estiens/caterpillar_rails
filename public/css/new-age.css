@@ -252,19 +252,8 @@ section.features .feature-item {
   section.features .feature-item {
     max-width: none; } }
 .bot-description {
-  min-height: 90px;
+  min-height: 100px;
 }
-
-.chat p {
-  font-size: 15px;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
-
-.chat h3 {
-  min-height: 62px;
-}
-
 .code {
    background-color: rgba(155, 197, 61, 1);
 }
@@ -399,18 +388,12 @@ footer {
 .btn {
   border-radius: 300px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-transform: uppercase; }
 
 .hover-button:hover {
   background-color: pink;
 }
-
 .btn-xl {
   font-size: 11px;
-  padding: 15px 45px; 
-}
-
-.btn-default {
-  font-size: 11px;
-}
+  padding: 15px 45px; }
