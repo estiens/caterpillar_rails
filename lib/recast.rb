@@ -1,9 +1,9 @@
-require 'recastai'
+require 'sapcai'
 
 module Recast
   class Requests
     def initialize(conversation: nil, text: nil)
-      @client = RecastAI::Request.new(ENV['RECAST_TOKEN'])
+      @client = Sapcai::Request.new(ENV['RECAST_TOKEN'])
       @response = nil
       @substance_a = nil
       @substance_b = nil

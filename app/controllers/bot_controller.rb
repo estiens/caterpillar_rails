@@ -1,9 +1,11 @@
+require 'sapcai'
+
 class BotController < ApplicationController
   rescue_from ApiError, with: :handle_api_error
   before_action :check_query_params, only: [:text]
 
   def bot
-    connect_client = RecastAI::Connect.new(ENV['RECAST_TOKEN'], 'en')
+    connect_client = Sapcai::Connect.new(ENV['RECAST_TOKEN'], 'en')
     reply_info = Recast::Requests.new(conversation: params['message']).reply_to_conversation
     message = create_message_from_info(info: reply_info)
     connect_client.send_message(message, reply_info[:chat_id])
