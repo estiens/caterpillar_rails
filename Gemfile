@@ -11,9 +11,8 @@ gem 'httparty'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'rack-cors'
-gem 'rails', '~> 5.0.7'
-
-gem 'RecastAI'
+gem 'rails', '~> 5.0.7.2'
+gem 'Sapcai'
 
 group :test do
   gem 'shoulda-matchers', '~> 3.1'
