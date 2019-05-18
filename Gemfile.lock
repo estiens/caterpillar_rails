@@ -1,9 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    RecastAI (4.0.0)
-      httmultiparty (~> 0.3)
-      httparty (~> 0.13)
     Sapcai (4.0.0)
       httmultiparty (~> 0.3)
       httparty (~> 0.13)
@@ -198,7 +195,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  RecastAI
   Sapcai
   bcrypt (~> 3.1.7)
   dotenv-rails
@@ -210,7 +206,7 @@ DEPENDENCIES
   pry-rails
   puma (~> 3.0)
   rack-cors
-  rails (~> 5.0.7)
+  rails (~> 5.0.7.2)
   rspec-rails
   rubocop
   shoulda-matchers (~> 3.1)
