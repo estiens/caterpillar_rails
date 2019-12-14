@@ -9,7 +9,7 @@ end
 gem 'bcrypt', '~> 3.1.7'
 gem 'httparty'
 gem 'pg', '~> 0.18'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12'
 gem 'rack-cors'
 gem 'rails', '~> 5.0.7.2'
 gem 'Sapcai'
